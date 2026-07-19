@@ -143,3 +143,13 @@ Completed two publication-ready strategies:
 - RA-002 Error Analysis Clinic
 
 This begins the Review and Assessment collection using the smaller two-strategy release workflow.
+
+
+## v3.7a2 Review and Assessment Part 2
+
+Completed two publication-ready strategies:
+
+- RA-003 Concept Sort Challenge
+- RA-004 Assessment Corrections Conference
+
+The Review and Assessment collection now contains four completed strategies.
