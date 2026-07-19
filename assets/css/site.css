@@ -694,3 +694,150 @@
   .finder-footer-callout .button{margin-top:14px}
   .finder-hero h1{font-size:2rem}
 }
+
+/* v3.4 complete Business Simulations section */
+.simulation-banner{
+  background:
+    radial-gradient(circle at 85% 5%,rgba(118,86,217,.14),transparent 30%),
+    radial-gradient(circle at 5% 0%,rgba(38,198,218,.12),transparent 28%),
+    linear-gradient(145deg,#FFFFFF,#F4F8FC);
+}
+.strategy-section{
+  position:relative;
+  margin:0 0 20px;
+  padding:24px 26px;
+  border:1px solid #DCE6EF;
+  border-radius:16px;
+  background:#fff;
+  box-shadow:0 8px 24px rgba(11,35,69,.045);
+  overflow:hidden;
+}
+.strategy-section::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:5px;
+  background:var(--section-accent,#1683FF);
+}
+.strategy-section>h2{
+  margin-top:0;
+  color:var(--navy-900);
+  font-size:1.3rem;
+}
+.section-hook{--section-accent:#7656D9;background:linear-gradient(145deg,#FCFAFF,#FFFFFF)}
+.section-blue{--section-accent:#1683FF}
+.section-green{--section-accent:#17B897}
+.section-orange{--section-accent:#E7852B}
+.section-purple{--section-accent:#7656D9}
+.section-red{--section-accent:#D84B4B}
+.section-gold{--section-accent:#D59A17}
+.section-teal{--section-accent:#26A9C3}
+.movie-trailer{
+  padding:22px;
+  border-radius:13px;
+  background:linear-gradient(135deg,#0B2345,#153E6B);
+  color:#fff;
+}
+.movie-trailer span{
+  display:block;
+  margin-bottom:8px;
+  color:#72DAD2;
+  font-size:.6rem;
+  font-weight:850;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+}
+.movie-trailer p{
+  margin:0;
+  color:#fff;
+  font-size:1rem;
+  line-height:1.72;
+}
+.quick-scan-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:11px;
+}
+.quick-scan-grid>div{
+  padding:14px;
+  border:1px solid #DCE7F1;
+  border-radius:11px;
+  background:#F8FBFE;
+}
+.quick-scan-grid small,.quick-scan-grid strong{display:block}
+.quick-scan-grid small{color:#6A7C91;font-size:.58rem;text-transform:uppercase;font-weight:800;letter-spacing:.07em}
+.quick-scan-grid strong{margin-top:4px;color:var(--navy-900);font-size:.74rem}
+.setup-strip{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:13px;
+}
+.setup-strip span{
+  padding:7px 10px;
+  border-radius:999px;
+  background:#EAF8F5;
+  color:#137B69;
+  font-size:.62rem;
+  font-weight:800;
+}
+.role-line{
+  display:grid;
+  grid-template-columns:180px 1fr;
+  gap:14px;
+  padding:11px 0;
+  border-bottom:1px solid #E6EDF4;
+}
+.role-line:last-child{border-bottom:0}
+.role-line strong{color:var(--navy-900);font-size:.72rem}
+.role-line span{color:#64768B;font-size:.7rem;line-height:1.55}
+.phase-card{
+  display:grid;
+  grid-template-columns:42px 1fr;
+  gap:13px;
+  align-items:start;
+  padding:13px 0;
+  border-bottom:1px solid #E7EDF3;
+}
+.phase-card:last-child{border-bottom:0}
+.phase-card>span{
+  display:grid;
+  place-items:center;
+  width:38px;
+  height:38px;
+  border-radius:10px;
+  background:#E7852B;
+  color:#fff;
+  font-size:.62rem;
+  font-weight:850;
+}
+.phase-card strong{color:var(--navy-900);font-size:.76rem}
+.phase-card p{margin:4px 0 0;color:#6B7D91;font-size:.68rem}
+.timing-grid,.course-example,.problem-card,.variation-card{
+  border:1px solid #DCE6EF;
+  border-radius:12px;
+  background:#FBFDFE;
+}
+.timing-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:11px;
+  border:0;
+  background:transparent;
+}
+.timing-grid>div,.course-example,.problem-card,.variation-card{padding:15px}
+.timing-grid strong,.course-example strong,.problem-card strong,.variation-card strong{color:var(--navy-900);font-size:.74rem}
+.timing-grid p,.course-example p,.problem-card p,.variation-card p{margin:5px 0 0;color:#65778C;font-size:.68rem;line-height:1.58}
+.course-example,.problem-card,.variation-card{margin:9px 0}
+.section-red .problem-card{background:#FFF9F9;border-color:#F0D7D7}
+.section-gold .variation-card{background:#FFFCF4;border-color:#EDDFC0}
+.simulation-strategy .page-toc{
+  border-top:5px solid #7656D9;
+}
+@media(max-width:760px){
+  .quick-scan-grid,.timing-grid{grid-template-columns:1fr}
+  .role-line{grid-template-columns:1fr;gap:4px}
+  .strategy-section{padding:20px}
+}
