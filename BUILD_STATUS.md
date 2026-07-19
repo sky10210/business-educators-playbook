@@ -133,3 +133,13 @@ Completed the final two publication-ready strategies:
 
 The Presentation and Communication collection now contains eight completed strategies.
 Legacy conflicting entries were replaced cleanly.
+
+
+## v3.7a1 Review and Assessment Part 1
+
+Completed two publication-ready strategies:
+
+- RA-001 Retrieval Grid
+- RA-002 Error Analysis Clinic
+
+This begins the Review and Assessment collection using the smaller two-strategy release workflow.

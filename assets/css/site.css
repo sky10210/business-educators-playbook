@@ -856,3 +856,14 @@
 }
 .presentation-strategy .page-toc{border-top:5px solid #7656D9}
 .presentation-strategy .strategy-number{background:#F0ECFF;color:#6745C5}
+
+
+/* Review and Assessment collection */
+.review-banner {
+  background:
+    radial-gradient(circle at 90% 12%, rgba(33, 196, 180, 0.20), transparent 28%),
+    linear-gradient(135deg, #0b2345 0%, #123b68 56%, #0c6070 100%);
+}
+.review-strategy .strategy-section h2 {
+  scroll-margin-top: 92px;
+}

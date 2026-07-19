@@ -1992,113 +1992,119 @@
   },
   {
     "id": "RA-001",
-    "title": "Retrieval Practice",
-    "slug": "retrieval-practice",
-    "tier": "Cornerstone",
+    "title": "Retrieval Grid",
+    "slug": "retrieval-grid",
+    "tier": "Core",
     "category": "Review & Assessment",
-    "summary": "Ask students to pull learning from memory before rereading or reviewing.",
-    "time_min": 5,
-    "time_max": 20,
+    "summary": "Students retrieve key ideas from memory across a structured grid, compare answers, correct misconceptions, and strengthen connections between concepts before an assessment.",
+    "time_min": 20,
+    "time_max": 55,
     "movement": 1,
     "noise": 2,
-    "critical_thinking": 3,
-    "collaboration": 1,
+    "critical_thinking": 4,
+    "collaboration": 3,
     "assessment_potential": 5,
-    "preparation": 1,
+    "preparation": 2,
     "technology": "Optional",
-    "energy": "Calm",
+    "energy": "Focused",
     "teacher_experience": "New Teacher",
     "fit_45": "Excellent",
-    "fit_90": "Excellent",
+    "fit_90": "Good",
     "courses": [
       "Business Foundations",
       "Marketing",
       "Personal Finance",
-      "Accounting",
-      "Economics",
+      "Entrepreneurship",
       "AP Business",
-      "Business Law"
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "review",
-      "memory",
-      "formative-assessment",
-      "low-prep",
-      "individual"
+      "assessment",
+      "retrieval",
+      "misconceptions",
+      "feedback"
     ],
     "problems": [
-      "Students forget prior learning",
-      "Need quick review",
-      "Need formative assessment"
+      "Students reread instead of retrieve",
+      "Students repeat misconceptions",
+      "Corrections lack explanation"
     ],
     "bestFor": [
-      "Review",
-      "Memory",
-      "Formative Assessment",
-      "Low Prep"
+      "Unit review",
+      "Retrieval practice",
+      "Vocabulary application",
+      "Concept connections"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Without notes, list every factor that affects a consumer's buying decision, then correct and expand.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students complete a grid that mixes vocabulary, examples, calculations, scenarios, and connections from a recent business unit.",
+    "status": "production",
+    "completion": "complete"
   },
   {
     "id": "RA-002",
-    "title": "Whiteboard Relay",
-    "slug": "whiteboard-relay",
-    "tier": "Cornerstone",
+    "title": "Error Analysis Clinic",
+    "slug": "error-analysis-clinic",
+    "tier": "Core",
     "category": "Review & Assessment",
-    "summary": "Combine quick retrieval, teamwork, movement, and immediate correction.",
-    "time_min": 15,
-    "time_max": 30,
-    "movement": 5,
-    "noise": 5,
-    "critical_thinking": 3,
-    "collaboration": 5,
-    "assessment_potential": 4,
+    "summary": "Students diagnose incorrect answers, calculations, claims, or business decisions, explain the source of each error, and produce a stronger corrected response.",
+    "time_min": 20,
+    "time_max": 55,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 5,
     "preparation": 2,
-    "technology": "Not required",
-    "energy": "High",
+    "technology": "Optional",
+    "energy": "Focused",
     "teacher_experience": "New Teacher",
     "fit_45": "Excellent",
-    "fit_90": "Excellent",
+    "fit_90": "Good",
     "courses": [
-      "Accounting",
-      "Personal Finance",
-      "Economics",
       "Business Foundations",
-      "Marketing"
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "review",
-      "movement",
-      "competition",
-      "teamwork",
-      "technology-free"
+      "assessment",
+      "retrieval",
+      "misconceptions",
+      "feedback"
     ],
     "problems": [
-      "Review is low energy",
-      "Need movement",
-      "Need immediate feedback"
+      "Students reread instead of retrieve",
+      "Students repeat misconceptions",
+      "Corrections lack explanation"
     ],
     "bestFor": [
-      "Review",
-      "Movement",
-      "Competition",
-      "Teamwork"
+      "Misconception correction",
+      "Assessment review",
+      "Quantitative reasoning",
+      "Written response improvement"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Teams rotate through payroll, tax, budgeting, and interest calculations.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students analyze fictional responses from a business assessment that include vocabulary confusion, unsupported claims, calculation errors, and weak recommendations.",
+    "status": "production",
+    "completion": "complete"
   },
   {
     "id": "RA-003",
