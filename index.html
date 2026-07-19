@@ -28,23 +28,22 @@
       <a href="coach.html"><span class="nav-icon">✦</span>Activity Finder</a>
       <a href="about.html"><span class="nav-icon">?</span>How the Finder Works</a>
 
-      <p class="nav-label nav-space">Browse by Grouping</p>
-      <a href="index.html?search=independent#library"><span class="nav-dot"></span>Independent Work</a>
-      <a href="index.html?search=pairs#library"><span class="nav-dot"></span>Pairs & Partners</a>
-      <a href="index.html?search=small group#library"><span class="nav-dot"></span>Small Groups</a>
-      <a href="index.html?search=whole class#library"><span class="nav-dot"></span>Whole Class</a>
+      <p class="nav-label nav-space">Browse by Classroom Format</p>
+      <a href="index.html?search=independent#library"><span class="nav-dot nav-dot-blue"></span>Independent & Individual</a>
+      <a href="index.html?search=pair partner#library"><span class="nav-dot nav-dot-cyan"></span>Pairs & Partners</a>
+      <a href="index.html?search=small group collaboration#library"><span class="nav-dot nav-dot-teal"></span>Small-Group Collaboration</a>
+      <a href="index.html?search=whole class discussion#library"><span class="nav-dot nav-dot-purple"></span>Whole-Class Engagement</a>
 
-      <p class="nav-label nav-space">Browse by Length</p>
-      <a href="index.html?time=20#library"><span class="nav-dot"></span>20 Minutes or Less</a>
-      <a href="index.html?time=45#library"><span class="nav-dot"></span>45-Minute Class</a>
-      <a href="index.html?time=90#library"><span class="nav-dot"></span>90-Minute Block</a>
+      <p class="nav-label nav-space">Browse by Teaching Goal</p>
+      <a href="index.html?search=case decision evidence#library"><span class="nav-dot nav-dot-orange"></span>Cases & Decision-Making</a>
+      <a href="index.html?search=simulation role professional#library"><span class="nav-dot nav-dot-blue"></span>Simulations & Professional Roles</a>
+      <a href="index.html?search=presentation pitch speaking#library"><span class="nav-dot nav-dot-purple"></span>Presentations & Pitches</a>
+      <a href="index.html?search=review assessment reflection closure#library"><span class="nav-dot nav-dot-green"></span>Review, Assessment & Closure</a>
 
-      <p class="nav-label nav-space">Browse by Type</p>
-      <a href="index.html?category=ECS#library"><span class="nav-dot"></span>Classroom Structures</a>
-      <a href="index.html?category=BS#library"><span class="nav-dot"></span>Business Simulations</a>
-      <a href="index.html?category=PF#library"><span class="nav-dot"></span>Presentation Formats</a>
-      <a href="index.html?category=RA#library"><span class="nav-dot"></span>Review & Assessment</a>
-      <a href="index.html?category=RC#library"><span class="nav-dot"></span>Reflection & Closure</a>
+      <p class="nav-label nav-space">Browse by Class Length</p>
+      <a href="index.html?time=20#library"><span class="nav-dot nav-dot-cyan"></span>Quick: 20 Minutes or Less</a>
+      <a href="index.html?time=45#library"><span class="nav-dot nav-dot-blue"></span>Standard: 45-Minute Class</a>
+      <a href="index.html?time=90#library"><span class="nav-dot nav-dot-teal"></span>Extended: 90-Minute Block</a>
     </nav>
 
     <div class="sidebar-footer">
@@ -142,26 +141,83 @@
         </div>
       </section>
 
-      <section class="dashboard-section" id="choose">
-        <div class="section-kicker">Browse by teaching need</div>
+      <section class="dashboard-section category-showcase" id="choose">
+        <div class="section-kicker">Choose how the class should feel</div>
         <div class="section-title-row">
           <div>
-            <h2>What should students be doing?</h2>
-            <p>Choose the thinking and interaction first. The tool will narrow the activities.</p>
+            <h2>Start with the classroom experience you want to create.</h2>
+            <p>Each pathway leads to activities that fit the grouping, energy, and thinking your lesson requires.</p>
           </div>
         </div>
 
-        <div class="problem-grid vibrant-problems">
-          <button data-quick="discussion" class="problem-blue"><span class="problem-icon">◌</span><strong>Discuss</strong><small>Increase participation and evidence-based speaking.</small></button>
-          <button data-quick="collaboration" class="problem-teal"><span class="problem-icon">◎</span><strong>Collaborate</strong><small>Give every student a meaningful team responsibility.</small></button>
-          <button data-quick="presentation" class="problem-purple"><span class="problem-icon">△</span><strong>Present</strong><small>Build polished, concise professional communication.</small></button>
-          <button data-quick="assessment" class="problem-green"><span class="problem-icon">✓</span><strong>Demonstrate Learning</strong><small>See what students understand and where support is needed.</small></button>
-          <button data-quick="movement" class="problem-orange"><span class="problem-icon">↗</span><strong>Move</strong><small>Reset energy while keeping the work purposeful.</small></button>
-          <button data-quick="decision" class="problem-cyan"><span class="problem-icon">◇</span><strong>Make a Decision</strong><small>Compare evidence, tradeoffs, stakeholders, and risk.</small></button>
+        <div class="category-grid">
+          <button data-quick="independent" class="category-card category-independent">
+            <span class="category-label">Focus</span>
+            <span class="category-icon">01</span>
+            <strong>Independent & Individual</strong>
+            <p>Quiet analysis, writing, reflection, calculations, and personal decision-making.</p>
+            <small>Best when every student must produce their own thinking.</small>
+          </button>
+
+          <button data-quick="pair partner" class="category-card category-pairs">
+            <span class="category-label">Low Risk</span>
+            <span class="category-icon">02</span>
+            <strong>Pairs & Partners</strong>
+            <p>Fast discussion, rehearsal, comparison, peer feedback, and shared problem-solving.</p>
+            <small>Best for building confidence before whole-class sharing.</small>
+          </button>
+
+          <button data-quick="small group collaboration" class="category-card category-small">
+            <span class="category-label">Collaborate</span>
+            <span class="category-icon">03</span>
+            <strong>Small-Group Collaboration</strong>
+            <p>Team roles, evidence analysis, creative planning, and recommendation-building.</p>
+            <small>Best when students need to create or decide together.</small>
+          </button>
+
+          <button data-quick="whole class discussion" class="category-card category-whole">
+            <span class="category-label">High Energy</span>
+            <span class="category-icon">04</span>
+            <strong>Whole-Class Engagement</strong>
+            <p>Visible opinions, movement, debate, discussion, and shared meaning-making.</p>
+            <small>Best when the entire room should react, compare, and respond.</small>
+          </button>
+
+          <button data-quick="case decision evidence" class="category-card category-cases">
+            <span class="category-label">Think Like Business</span>
+            <span class="category-icon">05</span>
+            <strong>Cases & Decision-Making</strong>
+            <p>Analyze evidence, weigh tradeoffs, identify stakeholders, and recommend action.</p>
+            <small>Best for rigorous, business-first application.</small>
+          </button>
+
+          <button data-quick="simulation role professional" class="category-card category-simulations">
+            <span class="category-label">Realistic Practice</span>
+            <span class="category-icon">06</span>
+            <strong>Simulations & Professional Roles</strong>
+            <p>Consulting, board meetings, leadership, launches, negotiations, and workplace roles.</p>
+            <small>Best when students should experience how business actually works.</small>
+          </button>
+
+          <button data-quick="presentation pitch speaking" class="category-card category-present">
+            <span class="category-label">Communicate</span>
+            <span class="category-icon">07</span>
+            <strong>Presentations & Pitches</strong>
+            <p>Persuasive speaking, concise recommendations, audience awareness, and professional delivery.</p>
+            <small>Best when students must explain and defend ideas publicly.</small>
+          </button>
+
+          <button data-quick="review assessment reflection closure" class="category-card category-review">
+            <span class="category-label">Check & Close</span>
+            <span class="category-icon">08</span>
+            <strong>Review, Assessment & Closure</strong>
+            <p>Check understanding, retrieve learning, reflect, summarize, and plan next steps.</p>
+            <small>Best when you need evidence of learning before students leave.</small>
+          </button>
         </div>
       </section>
 
-      <section class="dashboard-section library-panel" id="library">
+      <section class="dashboard-section library-panel id="library">
         <div class="section-kicker">Complete activity library</div>
         <div class="section-title-row">
           <div>
