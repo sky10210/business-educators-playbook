@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "ECS-001",
+    "title": "Think-Pair-Share",
+    "slug": "think-pair-share",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Build thinking time into discussion so every student has something worth saying.",
+    "time_min": 8,
+    "time_max": 20,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 4,
+    "preparation": 1,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "partner-work",
+      "low-prep",
+      "formative-assessment",
+      "decision-making",
+      "technology-optional"
+    ],
+    "problems": [
+      "Students will not talk",
+      "Same students answer",
+      "Discussion is shallow"
+    ],
+    "bestFor": [
+      "Discussion",
+      "Partner Work",
+      "Low Prep",
+      "Formative Assessment"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Should Costco raise the price of its $1.50 hot dog combo?"
+  },
+  {
+    "id": "ECS-002",
+    "title": "Gallery Walk",
+    "slug": "gallery-walk",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Move students through evidence, examples, or decisions and make them respond to prior thinking.",
+    "time_min": 20,
+    "time_max": 45,
+    "movement": 5,
+    "noise": 4,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Marketing",
+      "Entrepreneurship",
+      "AP Business",
+      "Business Foundations",
+      "Sports & Entertainment Marketing",
+      "Economics"
+    ],
+    "tags": [
+      "movement",
+      "comparison",
+      "peer-feedback",
+      "student-work",
+      "formative-assessment",
+      "technology-optional"
+    ],
+    "problems": [
+      "Class needs movement",
+      "Students need comparison",
+      "Groups finish early"
+    ],
+    "bestFor": [
+      "Movement",
+      "Comparison",
+      "Peer Feedback",
+      "Student Work"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Compare six advertisements by target audience, message, appeal, evidence, and likely weakness."
+  },
+  {
+    "id": "ECS-003",
+    "title": "Four Corners",
+    "slug": "four-corners",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Make students commit to a position, defend it, and reconsider after hearing stronger evidence.",
+    "time_min": 10,
+    "time_max": 25,
+    "movement": 5,
+    "noise": 4,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 3,
+    "preparation": 1,
+    "technology": "Not required",
+    "energy": "High",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Law",
+      "Economics",
+      "Marketing",
+      "Personal Finance",
+      "AP Business",
+      "Business Foundations"
+    ],
+    "tags": [
+      "movement",
+      "discussion",
+      "opinion",
+      "decision-making",
+      "low-prep",
+      "technology-free"
+    ],
+    "problems": [
+      "Students are passive",
+      "Students avoid taking a position",
+      "Need movement"
+    ],
+    "bestFor": [
+      "Movement",
+      "Discussion",
+      "Opinion",
+      "Decision Making"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A local coffee shop faces higher labor and ingredient costs. Should it raise prices, reduce portions, cut hours, or accept lower profit?"
+  },
+  {
+    "id": "ECS-004",
+    "title": "Jigsaw",
+    "slug": "jigsaw",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Turn students into specialists who must teach one piece of a larger business problem.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 3,
+    "noise": 4,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Marketing",
+      "Business Foundations"
+    ],
+    "tags": [
+      "cooperative-learning",
+      "expert-groups",
+      "reading",
+      "accountability",
+      "content-coverage"
+    ],
+    "problems": [
+      "Too much content to cover",
+      "Students need accountability",
+      "Reading feels passive"
+    ],
+    "bestFor": [
+      "Cooperative Learning",
+      "Expert Groups",
+      "Reading",
+      "Accountability"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Expert groups study pricing, promotion, distribution, customer experience, and competition before advising a struggling retailer."
+  },
+  {
+    "id": "ECS-005",
+    "title": "Fishbowl",
+    "slug": "fishbowl",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Use an inner discussion and outer observation circle to strengthen speaking and listening.",
+    "time_min": 20,
+    "time_max": 50,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 4,
+    "preparation": 2,
+    "technology": "Not required",
+    "energy": "Calm",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Law",
+      "AP Business",
+      "Ethics",
+      "Management",
+      "Economics"
+    ],
+    "tags": [
+      "discussion",
+      "observation",
+      "seminar",
+      "listening",
+      "facilitation",
+      "technology-free"
+    ],
+    "problems": [
+      "Discussion lacks depth",
+      "Students interrupt",
+      "Need stronger listening"
+    ],
+    "bestFor": [
+      "Discussion",
+      "Observation",
+      "Seminar",
+      "Listening"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Should a company use customer data to personalize prices?"
+  },
+  {
+    "id": "ECS-006",
+    "title": "Station Rotation",
+    "slug": "station-rotation",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Break a long lesson into focused stations for practice, feedback, technology, and teacher support.",
+    "time_min": 35,
+    "time_max": 80,
+    "movement": 5,
+    "noise": 4,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 4,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Personal Finance",
+      "Marketing",
+      "Accounting",
+      "Business Foundations",
+      "AP Business"
+    ],
+    "tags": [
+      "movement",
+      "differentiation",
+      "small-group",
+      "practice",
+      "technology-optional"
+    ],
+    "problems": [
+      "Need differentiation",
+      "Class needs movement",
+      "Long block feels flat"
+    ],
+    "bestFor": [
+      "Movement",
+      "Differentiation",
+      "Small Group",
+      "Practice"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Rotate through budgeting, credit, insurance, investing, and consumer-protection mini-cases."
+  },
+  {
+    "id": "ECS-007",
+    "title": "Speed Networking",
+    "slug": "speed-networking",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Use repeated short conversations to build fluency, networking skills, and rapid review.",
+    "time_min": 15,
+    "time_max": 35,
+    "movement": 5,
+    "noise": 5,
+    "critical_thinking": 3,
+    "collaboration": 4,
+    "assessment_potential": 2,
+    "preparation": 2,
+    "technology": "Not required",
+    "energy": "High",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Entrepreneurship",
+      "Marketing",
+      "Sports & Entertainment Marketing",
+      "Business Foundations",
+      "Career Readiness"
+    ],
+    "tags": [
+      "movement",
+      "speaking",
+      "repetition",
+      "networking",
+      "review",
+      "technology-free"
+    ],
+    "problems": [
+      "Students need speaking practice",
+      "Need fast review",
+      "Energy is low"
+    ],
+    "bestFor": [
+      "Movement",
+      "Speaking",
+      "Repetition",
+      "Networking"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students repeatedly explain a value proposition to a new partner, improving it after every round."
+  },
+  {
+    "id": "ECS-008",
+    "title": "Round Robin",
+    "slug": "round-robin",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Guarantee each group member contributes before anyone speaks twice.",
+    "time_min": 8,
+    "time_max": 20,
+    "movement": 1,
+    "noise": 3,
+    "critical_thinking": 3,
+    "collaboration": 5,
+    "assessment_potential": 3,
+    "preparation": 1,
+    "technology": "Not required",
+    "energy": "Moderate",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "AP Business",
+      "Economics"
+    ],
+    "tags": [
+      "participation",
+      "small-group",
+      "discussion",
+      "accountability",
+      "low-prep"
+    ],
+    "problems": [
+      "A few students dominate",
+      "Need equal participation",
+      "Groups stall"
+    ],
+    "bestFor": [
+      "Participation",
+      "Small Group",
+      "Discussion",
+      "Accountability"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams identify risks in a new food-truck launch, with every student contributing one distinct risk."
+  },
+  {
+    "id": "ECS-009",
+    "title": "Shark Tank",
+    "slug": "shark-tank",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Give students an authentic pitch-and-investment structure for evaluating business ideas.",
+    "time_min": 45,
+    "time_max": 90,
+    "movement": 2,
+    "noise": 4,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Entrepreneurship",
+      "Marketing",
+      "AP Business",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "pitching",
+      "entrepreneurship",
+      "creativity",
+      "presentation",
+      "decision-making"
+    ],
+    "problems": [
+      "Need authentic assessment",
+      "Students need pitching practice",
+      "Projects lack audience"
+    ],
+    "bestFor": [
+      "Pitching",
+      "Entrepreneurship",
+      "Creativity",
+      "Presentation"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Pitch a realistic product improvement that solves a school or community problem."
+  },
+  {
+    "id": "ECS-010",
+    "title": "Case Study Teams",
+    "slug": "case-study-teams",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Assign clear analytical roles so teams move from facts to a defensible recommendation.",
+    "time_min": 30,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "AP Business",
+      "Business Law",
+      "Marketing",
+      "Management",
+      "Economics",
+      "Personal Finance"
+    ],
+    "tags": [
+      "case-study",
+      "analysis",
+      "teamwork",
+      "decision-making",
+      "evidence"
+    ],
+    "problems": [
+      "Students summarize instead of decide",
+      "Case analysis is disorganized",
+      "Need collaboration"
+    ],
+    "bestFor": [
+      "Case Study",
+      "Analysis",
+      "Teamwork",
+      "Decision Making"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A movie theater must choose between premium seating, lower prices, special events, or membership plans."
+  },
+  {
+    "id": "BS-001",
+    "title": "Consulting Firm",
+    "slug": "consulting-firm",
+    "tier": "Cornerstone",
+    "category": "Business Simulations",
+    "summary": "Position teams as consultants solving a realistic client problem with evidence and professional deliverables.",
+    "time_min": 60,
+    "time_max": 180,
+    "movement": 2,
+    "noise": 4,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Experienced Facilitator",
+    "fit_45": "Limited",
+    "fit_90": "Excellent",
+    "courses": [
+      "AP Business",
+      "Marketing",
+      "Entrepreneurship",
+      "Management"
+    ],
+    "tags": [
+      "consulting",
+      "simulation",
+      "client-problem",
+      "teamwork",
+      "recommendation"
+    ],
+    "problems": [
+      "Need a realistic client problem",
+      "Students need professional teamwork",
+      "Need extended application"
+    ],
+    "bestFor": [
+      "Consulting",
+      "Simulation",
+      "Client Problem",
+      "Teamwork"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A local business has declining repeat customers and hires student teams to diagnose the issue."
+  },
+  {
+    "id": "BS-002",
+    "title": "Board Meeting",
+    "slug": "board-meeting",
+    "tier": "Cornerstone",
+    "category": "Business Simulations",
+    "summary": "Place students in stakeholder roles and require a consequential business decision.",
+    "time_min": 35,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 4,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Experienced Facilitator",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "AP Business",
+      "Business Law",
+      "Management",
+      "Economics"
+    ],
+    "tags": [
+      "role-play",
+      "governance",
+      "decision-making",
+      "stakeholders",
+      "discussion"
+    ],
+    "problems": [
+      "Students see only one perspective",
+      "Need stakeholder analysis",
+      "Discussion lacks consequence"
+    ],
+    "bestFor": [
+      "Role Play",
+      "Governance",
+      "Decision Making",
+      "Stakeholders"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A retailer is considering replacing staffed checkout lanes with self-checkout."
+  },
+  {
+    "id": "PF-001",
+    "title": "Investor Pitch",
+    "slug": "investor-pitch",
+    "tier": "Cornerstone",
+    "category": "Presentation Formats",
+    "summary": "Require students to persuade an investor using market evidence, numbers, risks, and return potential.",
+    "time_min": 45,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 4,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Entrepreneurship",
+      "AP Business",
+      "Marketing",
+      "Personal Finance"
+    ],
+    "tags": [
+      "pitching",
+      "finance",
+      "presentation",
+      "entrepreneurship",
+      "persuasion"
+    ],
+    "problems": [
+      "Need financial persuasion",
+      "Students need presentation practice",
+      "Ideas lack business logic"
+    ],
+    "bestFor": [
+      "Pitching",
+      "Finance",
+      "Presentation",
+      "Entrepreneurship"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Pitch a small business using customer need, revenue model, startup cost, margin, and growth potential."
+  },
+  {
+    "id": "BS-003",
+    "title": "Product Launch",
+    "slug": "product-launch",
+    "tier": "Cornerstone",
+    "category": "Business Simulations",
+    "summary": "Simulate the cross-functional work needed to bring a product from concept to market.",
+    "time_min": 60,
+    "time_max": 180,
+    "movement": 3,
+    "noise": 5,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 5,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Experienced Facilitator",
+    "fit_45": "Limited",
+    "fit_90": "Excellent",
+    "courses": [
+      "Marketing",
+      "Entrepreneurship",
+      "AP Business",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "launch",
+      "marketing",
+      "simulation",
+      "cross-functional",
+      "presentation"
+    ],
+    "problems": [
+      "Need cross-functional thinking",
+      "Marketing projects feel disconnected",
+      "Need authentic simulation"
+    ],
+    "bestFor": [
+      "Launch",
+      "Marketing",
+      "Simulation",
+      "Cross Functional"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Launch a new hydration product for high-school athletes across research, branding, pricing, distribution, and promotion."
+  },
+  {
+    "id": "RA-001",
+    "title": "Retrieval Practice",
+    "slug": "retrieval-practice",
+    "tier": "Cornerstone",
+    "category": "Review & Assessment",
+    "summary": "Ask students to pull learning from memory before rereading or reviewing.",
+    "time_min": 5,
+    "time_max": 20,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 3,
+    "collaboration": 1,
+    "assessment_potential": 5,
+    "preparation": 1,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Accounting",
+      "Economics",
+      "AP Business",
+      "Business Law"
+    ],
+    "tags": [
+      "review",
+      "memory",
+      "formative-assessment",
+      "low-prep",
+      "individual"
+    ],
+    "problems": [
+      "Students forget prior learning",
+      "Need quick review",
+      "Need formative assessment"
+    ],
+    "bestFor": [
+      "Review",
+      "Memory",
+      "Formative Assessment",
+      "Low Prep"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Without notes, list every factor that affects a consumer's buying decision, then correct and expand."
+  },
+  {
+    "id": "RA-002",
+    "title": "Whiteboard Relay",
+    "slug": "whiteboard-relay",
+    "tier": "Cornerstone",
+    "category": "Review & Assessment",
+    "summary": "Combine quick retrieval, teamwork, movement, and immediate correction.",
+    "time_min": 15,
+    "time_max": 30,
+    "movement": 5,
+    "noise": 5,
+    "critical_thinking": 3,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 2,
+    "technology": "Not required",
+    "energy": "High",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Accounting",
+      "Personal Finance",
+      "Economics",
+      "Business Foundations",
+      "Marketing"
+    ],
+    "tags": [
+      "review",
+      "movement",
+      "competition",
+      "teamwork",
+      "technology-free"
+    ],
+    "problems": [
+      "Review is low energy",
+      "Need movement",
+      "Need immediate feedback"
+    ],
+    "bestFor": [
+      "Review",
+      "Movement",
+      "Competition",
+      "Teamwork"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams rotate through payroll, tax, budgeting, and interest calculations."
+  },
+  {
+    "id": "RA-003",
+    "title": "Escape Room",
+    "slug": "escape-room",
+    "tier": "Cornerstone",
+    "category": "Review & Assessment",
+    "summary": "Organize review around connected puzzles that require content knowledge and collaboration.",
+    "time_min": 40,
+    "time_max": 90,
+    "movement": 4,
+    "noise": 5,
+    "critical_thinking": 4,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 5,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Experienced Facilitator",
+    "fit_45": "Limited",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Personal Finance",
+      "Marketing",
+      "Accounting",
+      "Economics"
+    ],
+    "tags": [
+      "review",
+      "puzzles",
+      "teamwork",
+      "gamification",
+      "problem-solving"
+    ],
+    "problems": [
+      "Need cumulative review",
+      "Students need teamwork",
+      "Review feels repetitive"
+    ],
+    "bestFor": [
+      "Review",
+      "Puzzles",
+      "Teamwork",
+      "Gamification"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Solve connected personal-finance clues to unlock a final financial recommendation."
+  },
+  {
+    "id": "RA-004",
+    "title": "Quiz Tournament",
+    "slug": "quiz-tournament",
+    "tier": "Cornerstone",
+    "category": "Review & Assessment",
+    "summary": "Use structured team competition without allowing one student to carry the group.",
+    "time_min": 25,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 5,
+    "critical_thinking": 3,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Accounting",
+      "Economics",
+      "AP Business"
+    ],
+    "tags": [
+      "review",
+      "competition",
+      "teams",
+      "assessment",
+      "gamification"
+    ],
+    "problems": [
+      "Need competitive review",
+      "Students need accountability",
+      "Assessment anxiety is high"
+    ],
+    "bestFor": [
+      "Review",
+      "Competition",
+      "Teams",
+      "Assessment"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams advance through vocabulary, scenarios, data interpretation, and final decision rounds."
+  },
+  {
+    "id": "PF-002",
+    "title": "Trade Show",
+    "slug": "trade-show",
+    "tier": "Cornerstone",
+    "category": "Presentation Formats",
+    "summary": "Replace repetitive presentations with an active showcase, networking, and peer evaluation.",
+    "time_min": 45,
+    "time_max": 120,
+    "movement": 5,
+    "noise": 5,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Limited",
+    "fit_90": "Excellent",
+    "courses": [
+      "Marketing",
+      "Entrepreneurship",
+      "Sports & Entertainment Marketing",
+      "AP Business"
+    ],
+    "tags": [
+      "presentation",
+      "movement",
+      "peer-feedback",
+      "product",
+      "networking"
+    ],
+    "problems": [
+      "Projects need authentic audience",
+      "Need movement",
+      "Presentations are repetitive"
+    ],
+    "bestFor": [
+      "Presentation",
+      "Movement",
+      "Peer Feedback",
+      "Product"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Student-created businesses operate booths and pitch to rotating customers, investors, and competitors."
+  },
+  {
+    "id": "PF-003",
+    "title": "Press Conference",
+    "slug": "press-conference",
+    "tier": "Cornerstone",
+    "category": "Presentation Formats",
+    "summary": "Train students to explain and defend a decision under unpredictable questioning.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 5,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "High",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Marketing",
+      "Business Law",
+      "Sports & Entertainment Marketing",
+      "AP Business"
+    ],
+    "tags": [
+      "presentation",
+      "questions",
+      "public-relations",
+      "role-play",
+      "crisis"
+    ],
+    "problems": [
+      "Need crisis communication practice",
+      "Students avoid follow-up questions",
+      "Need public relations application"
+    ],
+    "bestFor": [
+      "Presentation",
+      "Questions",
+      "Public Relations",
+      "Role Play"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A brand faces backlash after a failed campaign and must explain its response."
+  },
+  {
+    "id": "PF-004",
+    "title": "TED-Style Talk",
+    "slug": "ted-style-talk",
+    "tier": "Cornerstone",
+    "category": "Presentation Formats",
+    "summary": "Develop focused business storytelling without turning the presentation into a slide-reading exercise.",
+    "time_min": 20,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 2,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Comfortable Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Marketing",
+      "Entrepreneurship",
+      "Career Readiness",
+      "AP Business"
+    ],
+    "tags": [
+      "presentation",
+      "storytelling",
+      "public-speaking",
+      "individual",
+      "persuasion"
+    ],
+    "problems": [
+      "Students need storytelling practice",
+      "Presentations rely on slides",
+      "Need individual voice"
+    ],
+    "bestFor": [
+      "Presentation",
+      "Storytelling",
+      "Public Speaking",
+      "Individual"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Deliver a five-minute talk on one business idea worth changing, using a story and evidence."
+  },
+  {
+    "id": "RC-001",
+    "title": "Exit Ticket",
+    "slug": "exit-ticket",
+    "tier": "Cornerstone",
+    "category": "Reflection & Closure",
+    "summary": "Capture what students learned, misunderstood, or can apply before they leave.",
+    "time_min": 3,
+    "time_max": 8,
+    "movement": 1,
+    "noise": 1,
+    "critical_thinking": 3,
+    "collaboration": 1,
+    "assessment_potential": 5,
+    "preparation": 1,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Accounting",
+      "Economics",
+      "AP Business",
+      "Business Law"
+    ],
+    "tags": [
+      "reflection",
+      "closure",
+      "formative-assessment",
+      "low-prep",
+      "individual"
+    ],
+    "problems": [
+      "Need closure",
+      "Need evidence of learning",
+      "Time is almost gone"
+    ],
+    "bestFor": [
+      "Reflection",
+      "Closure",
+      "Formative Assessment",
+      "Low Prep"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Recommend one pricing strategy for the day's company and support it with one reason."
+  },
+  {
+    "id": "RC-002",
+    "title": "3-2-1 Reflection",
+    "slug": "3-2-1-reflection",
+    "tier": "Cornerstone",
+    "category": "Reflection & Closure",
+    "summary": "Use a predictable reflection frame to surface learning, questions, and next steps.",
+    "time_min": 5,
+    "time_max": 12,
+    "movement": 1,
+    "noise": 1,
+    "critical_thinking": 3,
+    "collaboration": 1,
+    "assessment_potential": 4,
+    "preparation": 1,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Economics",
+      "AP Business"
+    ],
+    "tags": [
+      "reflection",
+      "closure",
+      "metacognition",
+      "low-prep",
+      "individual"
+    ],
+    "problems": [
+      "Students need reflection",
+      "Need simple closure",
+      "Need misconceptions surfaced"
+    ],
+    "bestFor": [
+      "Reflection",
+      "Closure",
+      "Metacognition",
+      "Low Prep"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Three ideas learned, two real-world connections, and one remaining question."
+  },
+  {
+    "id": "DP-001",
+    "title": "Silent Discussion",
+    "slug": "silent-discussion",
+    "tier": "Cornerstone",
+    "category": "Discussion Protocols",
+    "summary": "Create an equitable written conversation before or instead of whole-class speaking.",
+    "time_min": 15,
+    "time_max": 35,
+    "movement": 1,
+    "noise": 1,
+    "critical_thinking": 5,
+    "collaboration": 3,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Law",
+      "AP Business",
+      "Economics",
+      "Marketing",
+      "Ethics"
+    ],
+    "tags": [
+      "discussion",
+      "writing",
+      "quiet",
+      "equity",
+      "reflection"
+    ],
+    "problems": [
+      "Students will not talk",
+      "A few students dominate",
+      "Class needs calm participation"
+    ],
+    "bestFor": [
+      "Discussion",
+      "Writing",
+      "Quiet",
+      "Equity"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Respond in writing to a business ethics case involving employee monitoring."
+  },
+  {
+    "id": "ECS-011",
+    "title": "Decision Matrix",
+    "slug": "decision-matrix",
+    "tier": "Cornerstone",
+    "category": "Essential Classroom Structures",
+    "summary": "Compare options against weighted criteria so recommendations are visible and defensible.",
+    "time_min": 15,
+    "time_max": 40,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 3,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "New Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Personal Finance",
+      "Marketing",
+      "Entrepreneurship",
+      "AP Business",
+      "Business Law",
+      "Economics"
+    ],
+    "tags": [
+      "decision-making",
+      "criteria",
+      "analysis",
+      "comparison",
+      "evidence"
+    ],
+    "problems": [
+      "Students jump to conclusions",
+      "Choices feel subjective",
+      "Need evidence-based comparison"
+    ],
+    "bestFor": [
+      "Decision Making",
+      "Criteria",
+      "Analysis",
+      "Comparison"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Choose among three postsecondary options using cost, time, earnings, flexibility, and risk."
+  }
+]
