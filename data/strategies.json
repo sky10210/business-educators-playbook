@@ -174,64 +174,6 @@
     "completion": "complete"
   },
   {
-    "id": "BS-004",
-    "title": "Investor Pitch Panel",
-    "slug": "investor-pitch",
-    "tier": "Cornerstone",
-    "category": "Business Simulations",
-    "summary": "Students pitch a venture to an investor panel that evaluates customer need, business model, financial logic, execution risk, and founder readiness.",
-    "time_min": 45,
-    "time_max": 90,
-    "movement": 2,
-    "noise": 4,
-    "critical_thinking": 5,
-    "collaboration": 5,
-    "assessment_potential": 5,
-    "preparation": 3,
-    "technology": "Optional",
-    "energy": "Moderate",
-    "teacher_experience": "Developing Teacher",
-    "fit_45": "Good",
-    "fit_90": "Excellent",
-    "courses": [
-      "Business Foundations",
-      "Marketing",
-      "Personal Finance",
-      "Entrepreneurship",
-      "AP Business",
-      "Economics",
-      "Business Law",
-      "Accounting",
-      "Sports & Entertainment Marketing"
-    ],
-    "tags": [
-      "simulation",
-      "professional-roles",
-      "decision-making",
-      "collaboration",
-      "real-world-application"
-    ],
-    "problems": [
-      "Students need real-world application",
-      "Discussion needs accountability",
-      "Students need to defend decisions"
-    ],
-    "bestFor": [
-      "Entrepreneurship",
-      "Business models",
-      "Financial projections",
-      "Persuasive speaking"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Student founders propose a subscription service that helps busy families plan affordable meals and reduce food waste.",
-    "status": "production",
-    "completion": "complete"
-  },
-  {
     "id": "BS-005",
     "title": "Product Launch Simulation",
     "slug": "product-launch",
@@ -402,64 +344,6 @@
       "Large"
     ],
     "scenario": "A school event organizer negotiates a sponsorship agreement with a local company involving cash, promotion, exclusivity, tickets, and community visibility.",
-    "status": "production",
-    "completion": "complete"
-  },
-  {
-    "id": "BS-008",
-    "title": "Press Conference Simulation",
-    "slug": "press-conference",
-    "tier": "Cornerstone",
-    "category": "Business Simulations",
-    "summary": "Students prepare a public position, deliver a concise opening statement, answer challenging questions, and maintain accuracy under pressure.",
-    "time_min": 45,
-    "time_max": 90,
-    "movement": 2,
-    "noise": 4,
-    "critical_thinking": 5,
-    "collaboration": 5,
-    "assessment_potential": 5,
-    "preparation": 3,
-    "technology": "Optional",
-    "energy": "Moderate",
-    "teacher_experience": "Developing Teacher",
-    "fit_45": "Good",
-    "fit_90": "Excellent",
-    "courses": [
-      "Business Foundations",
-      "Marketing",
-      "Personal Finance",
-      "Entrepreneurship",
-      "AP Business",
-      "Economics",
-      "Business Law",
-      "Accounting",
-      "Sports & Entertainment Marketing"
-    ],
-    "tags": [
-      "simulation",
-      "professional-roles",
-      "decision-making",
-      "collaboration",
-      "real-world-application"
-    ],
-    "problems": [
-      "Students need real-world application",
-      "Discussion needs accountability",
-      "Students need to defend decisions"
-    ],
-    "bestFor": [
-      "Public relations",
-      "Media literacy",
-      "Crisis communication",
-      "Executive communication"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "A popular event was canceled after a safety concern, leaving customers angry about refunds, travel costs, and communication delays.",
     "status": "production",
     "completion": "complete"
   },
@@ -1761,6 +1645,238 @@
       "Large"
     ],
     "scenario": "Students sell a workplace productivity service to a small business with limited money and concerns about employee adoption.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-005",
+    "title": "Product Demonstration",
+    "slug": "product-demonstration",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students show how a product or service works, connect features to customer value, anticipate usage questions, and demonstrate the experience clearly for a real audience.",
+    "time_min": 35,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students rely on a script",
+      "Students struggle with questions",
+      "Communication lacks audience focus"
+    ],
+    "bestFor": [
+      "Product knowledge",
+      "Customer communication",
+      "Live explanation",
+      "Feature-benefit connections"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students demonstrate a new school-focused product designed to save time, improve organization, or solve a recurring student problem.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-006",
+    "title": "Press Conference",
+    "slug": "press-conference",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students represent an organization facing public questions, deliver a clear opening statement, answer reporters with evidence, and manage difficult or unexpected issues professionally.",
+    "time_min": 35,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students rely on a script",
+      "Students struggle with questions",
+      "Communication lacks audience focus"
+    ],
+    "bestFor": [
+      "Crisis communication",
+      "Stakeholder analysis",
+      "Question response",
+      "Public relations"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students represent a company responding to concerns about a delayed product, customer complaints, and unclear public communication.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-007",
+    "title": "Board Presentation",
+    "slug": "board-presentation",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students present a strategic recommendation to a board, justify it with evidence, address financial and stakeholder consequences, and respond to governance-level questions.",
+    "time_min": 40,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Helpful",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "strategy",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students summarize instead of recommend",
+      "Financial claims lack assumptions",
+      "Students struggle with audience questions"
+    ],
+    "bestFor": [
+      "Strategic recommendations",
+      "Governance decisions",
+      "Evidence synthesis",
+      "Financial justification"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students ask a fictional board to approve a major expansion, new product line, or operational investment.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-008",
+    "title": "Investor Pitch",
+    "slug": "investor-pitch",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students pitch a business opportunity to investors by explaining the problem, customer, solution, market, business model, evidence, financial logic, and funding request.",
+    "time_min": 40,
+    "time_max": 90,
+    "movement": 1,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Helpful",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "strategy",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students summarize instead of recommend",
+      "Financial claims lack assumptions",
+      "Students struggle with audience questions"
+    ],
+    "bestFor": [
+      "Entrepreneurship",
+      "Business models",
+      "Persuasive speaking",
+      "Financial reasoning"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students pitch a startup concept that solves a recurring problem for students, families, local businesses, or community organizations.",
     "status": "production",
     "completion": "complete"
   },

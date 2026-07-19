@@ -112,3 +112,24 @@ Completed four publication-ready strategies:
 - PC-004 Sales Presentation
 
 This is a smaller drag-and-drop release intended to keep each build stable and easy to validate.
+
+
+## v3.6b1 Presentation and Communication Part 2A
+
+Completed two publication-ready strategies:
+
+- PC-005 Product Demonstration
+- PC-006 Press Conference
+
+Legacy versions were replaced cleanly. Board Presentation and Investor Pitch remain for v3.6b2.
+
+
+## v3.6b2 Presentation and Communication Complete
+
+Completed the final two publication-ready strategies:
+
+- PC-007 Board Presentation
+- PC-008 Investor Pitch
+
+The Presentation and Communication collection now contains eight completed strategies.
+Legacy conflicting entries were replaced cleanly.
