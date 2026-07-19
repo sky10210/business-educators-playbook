@@ -1533,110 +1533,236 @@
     "completion": "complete"
   },
   {
-    "id": "PF-002",
-    "title": "Trade Show",
-    "slug": "trade-show",
-    "tier": "Cornerstone",
+    "id": "PC-001",
+    "title": "TED-Style Business Talk",
+    "slug": "ted-style-business-talk",
+    "tier": "Core",
     "category": "Presentation Formats",
-    "summary": "Replace repetitive presentations with an active showcase, networking, and peer evaluation.",
-    "time_min": 45,
-    "time_max": 120,
-    "movement": 5,
-    "noise": 5,
-    "critical_thinking": 5,
-    "collaboration": 5,
-    "assessment_potential": 5,
-    "preparation": 4,
-    "technology": "Optional",
-    "energy": "High",
-    "teacher_experience": "Comfortable Teacher",
-    "fit_45": "Limited",
-    "fit_90": "Excellent",
-    "courses": [
-      "Marketing",
-      "Entrepreneurship",
-      "Sports & Entertainment Marketing",
-      "AP Business"
-    ],
-    "tags": [
-      "presentation",
-      "movement",
-      "peer-feedback",
-      "product",
-      "networking"
-    ],
-    "problems": [
-      "Projects need authentic audience",
-      "Need movement",
-      "Presentations are repetitive"
-    ],
-    "bestFor": [
-      "Presentation",
-      "Movement",
-      "Peer Feedback",
-      "Product"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Student-created businesses operate booths and pitch to rotating customers, investors, and competitors.",
-    "status": "planned",
-    "completion": "planned"
-  },
-  {
-    "id": "PF-004",
-    "title": "TED-Style Talk",
-    "slug": "ted-style-talk",
-    "tier": "Cornerstone",
-    "category": "Presentation Formats",
-    "summary": "Develop focused business storytelling without turning the presentation into a slide-reading exercise.",
-    "time_min": 20,
-    "time_max": 90,
-    "movement": 1,
+    "summary": "Students deliver a focused, idea-driven business talk that explains one important insight through evidence, story, and clear audience takeaways.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 2,
     "noise": 3,
-    "critical_thinking": 5,
-    "collaboration": 2,
+    "critical_thinking": 4,
+    "collaboration": 3,
     "assessment_potential": 5,
     "preparation": 3,
     "technology": "Optional",
-    "energy": "Calm",
-    "teacher_experience": "Comfortable Teacher",
-    "fit_45": "Good",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
     "fit_90": "Excellent",
     "courses": [
+      "Business Foundations",
       "Marketing",
+      "Personal Finance",
       "Entrepreneurship",
-      "Career Readiness",
-      "AP Business"
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "presentation",
-      "storytelling",
-      "public-speaking",
-      "individual",
-      "persuasion"
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
     ],
     "problems": [
-      "Students need storytelling practice",
-      "Presentations rely on slides",
-      "Need individual voice"
+      "Students read slides",
+      "Presentations lack audience focus",
+      "Students struggle with questions"
     ],
     "bestFor": [
-      "Presentation",
+      "Concise speaking",
+      "Idea development",
       "Storytelling",
-      "Public Speaking",
-      "Individual"
+      "Research synthesis"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Deliver a five-minute talk on one business idea worth changing, using a story and evidence.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students explain one lesson a struggling brand should learn about rebuilding customer trust.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-002",
+    "title": "Trade Show Exhibition",
+    "slug": "trade-show-exhibition",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Student teams design an interactive exhibit and speak repeatedly with visitors as they explain, demonstrate, and defend a business idea.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students read slides",
+      "Presentations lack audience focus",
+      "Students struggle with questions"
+    ],
+    "bestFor": [
+      "Product communication",
+      "Repeated speaking",
+      "Visual merchandising",
+      "Customer feedback"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams create booths for new products designed to solve a problem faced by high school students.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-003",
+    "title": "Executive Briefing",
+    "slug": "executive-briefing",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students deliver a concise, decision-focused briefing that gives leaders the essential evidence, recommendation, risk, and next action without unnecessary detail.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students read slides",
+      "Presentations lack audience focus",
+      "Students struggle with questions"
+    ],
+    "bestFor": [
+      "Concise recommendations",
+      "Case conclusions",
+      "Data communication",
+      "Professional speaking"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students brief school leaders on whether the school store should change its product mix and operating hours.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "PC-004",
+    "title": "Sales Presentation",
+    "slug": "sales-presentation",
+    "tier": "Core",
+    "category": "Presentation Formats",
+    "summary": "Students diagnose a customer's needs, present a relevant value proposition, respond to objections, and ask for a realistic next step.",
+    "time_min": 30,
+    "time_max": 75,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 3,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "presentation",
+      "communication",
+      "audience",
+      "professional-speaking",
+      "evidence"
+    ],
+    "problems": [
+      "Students read slides",
+      "Presentations lack audience focus",
+      "Students struggle with questions"
+    ],
+    "bestFor": [
+      "Selling skills",
+      "Customer discovery",
+      "Persuasion",
+      "Objection handling"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students sell a workplace productivity service to a small business with limited money and concerns about employee adoption.",
+    "status": "production",
+    "completion": "complete"
   },
   {
     "id": "RC-001",

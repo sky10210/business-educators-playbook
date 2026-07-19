@@ -846,3 +846,13 @@
 .discussion-banner{background:radial-gradient(circle at 86% 8%,rgba(22,131,255,.15),transparent 30%),radial-gradient(circle at 3% 0%,rgba(118,86,217,.11),transparent 27%),linear-gradient(145deg,#FFFFFF,#F5F9FD)}
 .discussion-strategy .page-toc{border-top:5px solid #1683FF}
 .discussion-strategy .strategy-number{background:#EAF4FF;color:#1267D6}
+
+/* v3.6a Presentation and Communication Part 1 */
+.presentation-banner{
+  background:
+    radial-gradient(circle at 86% 7%,rgba(118,86,217,.17),transparent 31%),
+    radial-gradient(circle at 3% 0%,rgba(22,131,255,.11),transparent 28%),
+    linear-gradient(145deg,#FFFFFF,#F7F5FD);
+}
+.presentation-strategy .page-toc{border-top:5px solid #7656D9}
+.presentation-strategy .strategy-number{background:#F0ECFF;color:#6745C5}

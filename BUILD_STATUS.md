@@ -100,3 +100,15 @@ Completed six production-ready strategies:
 - DP-006 Affinity Mapping
 
 This build also includes a repository-wide navigation audit covering internal page links, fragments, buttons, query-based library links, and print actions.
+
+
+## v3.6a Presentation and Communication Part 1
+
+Completed four publication-ready strategies:
+
+- PC-001 TED-Style Business Talk
+- PC-002 Trade Show Exhibition
+- PC-003 Executive Briefing
+- PC-004 Sales Presentation
+
+This is a smaller drag-and-drop release intended to keep each build stable and easy to validate.
