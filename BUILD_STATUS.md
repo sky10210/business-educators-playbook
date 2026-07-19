@@ -86,3 +86,17 @@ The Business Simulations section now contains ten publication-ready strategies:
 - BS-010 Hiring Committee
 
 Every page includes a classroom trailer, classroom snapshot, quick scan, instructional value, preparation, roles, timed phases, teacher language, course examples, problems and fixes, explained variations, assessment, reflection, companion-resource roadmap, related strategies, and color-coded section hierarchy.
+
+
+## v3.5 Discussion and Decision Structures Complete
+
+Completed six production-ready strategies:
+
+- DP-001 Silent Discussion
+- DP-002 Socratic Seminar for Business
+- DP-003 Chalk Talk
+- DP-004 Structured Academic Controversy
+- DP-005 Decision Matrix
+- DP-006 Affinity Mapping
+
+This build also includes a repository-wide navigation audit covering internal page links, fragments, buttons, query-based library links, and print actions.

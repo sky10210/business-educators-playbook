@@ -637,55 +637,349 @@
     "id": "DP-001",
     "title": "Silent Discussion",
     "slug": "silent-discussion",
-    "tier": "Cornerstone",
+    "tier": "Core",
     "category": "Discussion Protocols",
-    "summary": "Create an equitable written conversation before or instead of whole-class speaking.",
-    "time_min": 15,
-    "time_max": 35,
-    "movement": 1,
-    "noise": 1,
+    "summary": "Students hold a complete academic discussion in writing, responding to prompts and one another before any whole-class conversation begins.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
     "critical_thinking": 5,
-    "collaboration": 3,
+    "collaboration": 4,
     "assessment_potential": 5,
     "preparation": 2,
     "technology": "Optional",
     "energy": "Calm",
-    "teacher_experience": "New Teacher",
+    "teacher_experience": "Beginning Teacher",
     "fit_45": "Excellent",
-    "fit_90": "Excellent",
+    "fit_90": "Good",
     "courses": [
-      "Business Law",
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
       "AP Business",
       "Economics",
-      "Marketing",
-      "Ethics"
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "discussion",
-      "writing",
-      "quiet",
-      "equity",
-      "reflection"
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
     ],
     "problems": [
-      "Students will not talk",
-      "A few students dominate",
-      "Class needs calm participation"
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
     ],
     "bestFor": [
-      "Discussion",
-      "Writing",
-      "Quiet",
-      "Equity"
+      "Inclusive participation",
+      "Evidence-based discussion",
+      "Case analysis",
+      "Pre-writing"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Respond in writing to a business ethics case involving employee monitoring.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students evaluate whether a company should raise prices after costs increase, knowing the decision may affect customers, employees, and profit.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "DP-002",
+    "title": "Socratic Seminar for Business",
+    "slug": "socratic-seminar-business",
+    "tier": "Core",
+    "category": "Discussion Protocols",
+    "summary": "Students use a shared text, case, dataset, or business decision to lead a disciplined discussion built on evidence, questioning, listening, and revision.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Beginning Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
+    ],
+    "problems": [
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
+    ],
+    "bestFor": [
+      "Complex cases",
+      "Ethics",
+      "Stakeholder analysis",
+      "Evidence use"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students discuss whether a profitable company should close an underperforming location that remains important to the local community.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "DP-003",
+    "title": "Chalk Talk",
+    "slug": "chalk-talk",
+    "tier": "Core",
+    "category": "Discussion Protocols",
+    "summary": "Students build a visible web of ideas, questions, evidence, and connections around a business concept without requiring immediate oral participation.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Beginning Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
+    ],
+    "problems": [
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
+    ],
+    "bestFor": [
+      "Brainstorming",
+      "Concept connections",
+      "Root-cause analysis",
+      "Prior knowledge"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students map why a well-known retail brand may be losing relevance with younger customers.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "DP-004",
+    "title": "Structured Academic Controversy",
+    "slug": "structured-academic-controversy",
+    "tier": "Core",
+    "category": "Discussion Protocols",
+    "summary": "Students investigate competing positions, argue both sides, listen for strongest evidence, and then build a reasoned conclusion rather than trying to win a debate.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Beginning Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
+    ],
+    "problems": [
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
+    ],
+    "bestFor": [
+      "Controversial decisions",
+      "Ethics",
+      "Policy",
+      "Stakeholder tradeoffs"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A company must decide whether to replace part of its workforce with automation that may lower costs but disrupt employees and the community.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "DP-005",
+    "title": "Decision Matrix",
+    "slug": "decision-matrix",
+    "tier": "Core",
+    "category": "Discussion Protocols",
+    "summary": "Students define criteria, assign importance, score alternatives with evidence, and test whether a recommendation remains strong when assumptions change.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Beginning Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
+    ],
+    "problems": [
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
+    ],
+    "bestFor": [
+      "Option comparison",
+      "Prioritization",
+      "Quantitative reasoning",
+      "Strategic decisions"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "A student-run business must choose the best product to launch from four ideas with different costs, demand, risks, and operational requirements.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "DP-006",
+    "title": "Affinity Mapping",
+    "slug": "affinity-mapping",
+    "tier": "Core",
+    "category": "Discussion Protocols",
+    "summary": "Students sort a large set of observations, evidence, ideas, or customer comments into meaningful clusters and use the emerging patterns to identify priorities.",
+    "time_min": 20,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 2,
+    "technology": "Optional",
+    "energy": "Calm",
+    "teacher_experience": "Beginning Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "discussion",
+      "decision-making",
+      "evidence",
+      "participation",
+      "critical-thinking"
+    ],
+    "problems": [
+      "The same students dominate",
+      "Students need stronger evidence",
+      "Discussion stays superficial"
+    ],
+    "bestFor": [
+      "Qualitative data",
+      "Customer research",
+      "Brainstorming",
+      "Problem diagnosis"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students analyze 40 customer comments about a school store to identify the most important experience, product, price, and service issues.",
+    "status": "production",
+    "completion": "complete"
   },
   {
     "id": "ECS-001",
@@ -1237,61 +1531,6 @@
     "scenario": "A movie theater must choose between premium seating, lower prices, special events, or membership plans.",
     "status": "production",
     "completion": "complete"
-  },
-  {
-    "id": "ECS-011",
-    "title": "Decision Matrix",
-    "slug": "decision-matrix",
-    "tier": "Cornerstone",
-    "category": "Essential Classroom Structures",
-    "summary": "Compare options against weighted criteria so recommendations are visible and defensible.",
-    "time_min": 15,
-    "time_max": 40,
-    "movement": 1,
-    "noise": 2,
-    "critical_thinking": 5,
-    "collaboration": 3,
-    "assessment_potential": 5,
-    "preparation": 2,
-    "technology": "Optional",
-    "energy": "Calm",
-    "teacher_experience": "New Teacher",
-    "fit_45": "Excellent",
-    "fit_90": "Excellent",
-    "courses": [
-      "Personal Finance",
-      "Marketing",
-      "Entrepreneurship",
-      "AP Business",
-      "Business Law",
-      "Economics"
-    ],
-    "tags": [
-      "decision-making",
-      "criteria",
-      "analysis",
-      "comparison",
-      "evidence"
-    ],
-    "problems": [
-      "Students jump to conclusions",
-      "Choices feel subjective",
-      "Need evidence-based comparison"
-    ],
-    "bestFor": [
-      "Decision Making",
-      "Criteria",
-      "Analysis",
-      "Comparison"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Choose among three postsecondary options using cost, time, earnings, flexibility, and risk.",
-    "status": "planned",
-    "completion": "planned"
   },
   {
     "id": "PF-002",

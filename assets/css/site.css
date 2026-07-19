@@ -841,3 +841,8 @@
   .role-line{grid-template-columns:1fr;gap:4px}
   .strategy-section{padding:20px}
 }
+
+/* v3.5 Discussion and Decision Structures */
+.discussion-banner{background:radial-gradient(circle at 86% 8%,rgba(22,131,255,.15),transparent 30%),radial-gradient(circle at 3% 0%,rgba(118,86,217,.11),transparent 27%),linear-gradient(145deg,#FFFFFF,#F5F9FD)}
+.discussion-strategy .page-toc{border-top:5px solid #1683FF}
+.discussion-strategy .strategy-number{background:#EAF4FF;color:#1267D6}
