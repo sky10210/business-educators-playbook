@@ -36,7 +36,7 @@ Instead of one group presenting while everyone else listens, every student visit
 
 Prepare one station for each topic, company, case, or problem.
 
-Each station should ask students to analyze, compare, recommend, or improve—not simply copy information.
+Each station should ask students to analyze, compare, recommend, or improve - not simply copy information.
 
 Examples:
 
@@ -71,7 +71,7 @@ Students should leave each station thinking, not copying.
 
 # Running the Strategy
 
-## Step 1 — Introduce the Challenge
+## Step 1  -  Introduce the Challenge
 
 Explain the objective before students move.
 
@@ -81,7 +81,7 @@ Teacher language:
 
 > You are acting as business consultants, not just answering questions.
 
-## Step 2 — Rotate
+## Step 2  -  Rotate
 
 Groups spend 3–5 minutes at each station.
 
@@ -89,7 +89,7 @@ Every student should write at every stop.
 
 Do not allow one recorder to complete all the work.
 
-## Step 3 — Build on Previous Ideas
+## Step 3  -  Build on Previous Ideas
 
 Students should read what earlier groups wrote before adding new thinking.
 
@@ -99,7 +99,7 @@ Teacher language:
 
 > Don't repeat what is already there. Add value.
 
-## Step 4 — Debrief
+## Step 4  -  Debrief
 
 Return groups to their original station.
 

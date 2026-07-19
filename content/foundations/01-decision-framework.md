@@ -29,7 +29,7 @@ Gallery Walks can be useful. Shark Tank pitches can be memorable. Debates can be
 
 None of those matter if they do not move students toward the day's objective.
 
-The strategy serves the lesson—not the other way around.
+The strategy serves the lesson - not the other way around.
 
 ## The Four Questions
 

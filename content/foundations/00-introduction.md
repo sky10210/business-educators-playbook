@@ -29,7 +29,7 @@ Another shrugs.
 
 Now everyone is looking at you to carry the conversation.
 
-If you've taught business for any length of time, you've lived this moment. The problem usually isn't the topic. Students often haven't been given enough reason—or enough time—to think before they're asked to talk.
+If you've taught business for any length of time, you've lived this moment. The problem usually isn't the topic. Students often haven't been given enough reason - or enough time - to think before they're asked to talk.
 
 That moment is why this playbook exists.
 

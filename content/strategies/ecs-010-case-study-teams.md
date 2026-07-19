@@ -421,4 +421,4 @@ Assess both team analysis and individual understanding.
 
 Case Study Teams provide the backbone for rigorous business instruction because they mirror how real organizations make decisions: people interpret incomplete evidence, disagree about priorities, compare options, and act despite uncertainty.
 
-The most important design choice is consistency. When students repeatedly use the same analysis sequence—decision, diagnosis, evidence, alternatives, criteria, recommendation, implementation, and risk—they become more independent and more capable of transferring business reasoning to unfamiliar situations.
+The most important design choice is consistency. When students repeatedly use the same analysis sequence - decision, diagnosis, evidence, alternatives, criteria, recommendation, implementation, and risk - they become more independent and more capable of transferring business reasoning to unfamiliar situations.

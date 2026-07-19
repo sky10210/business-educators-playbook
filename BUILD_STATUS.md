@@ -1,4 +1,4 @@
-# Build Status
+# Business Educator's Playbook Build Status
 
 ## Production-complete Cornerstone strategies
 
@@ -54,6 +54,17 @@ This package consolidates the cumulative website build through BS-002 Board Meet
 - Homepage v2.9: publisher-style hero, quick-needs panel, advanced search, course/category/time filters, responsive strategy cards, and stronger calls to action.
 
 
-## Platform v3.0 — Vivid Lessons Complete Redesign
+## Platform v3.0  -  Vivid Lessons Complete Redesign
 - Rebuilt the homepage, coach, about page, and all strategy pages in the Vivid Lessons visual system.
 - Added a permanent desktop sidebar, responsive mobile navigation, section top navigation, strategy tables of contents, print styling, and corrected relative asset paths.
+
+
+## v3.3 Activity Finder Rebuild
+
+- Rebuilt `coach.html` as the Activity Finder.
+- Reduced hero and interface typography.
+- Added dropdowns for student action, grouping, class length, energy, teaching need, and course.
+- Added automatic pathway highlighting and smooth navigation.
+- Added five color-coded pathway sections and sixteen teacher-facing pathway cards.
+- Replaced remaining Activity Finder wording with Activity Finder.
+- Preserved full repository structure for drag-and-drop GitHub replacement.

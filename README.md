@@ -4,14 +4,14 @@ A static, searchable teaching-strategy website for Business Foundations, Marketi
 
 ## Repository structure
 
-- `index.html` — searchable strategy library
-- `strategies/` — public strategy pages
-- `content/strategies/` — source Markdown
-- `content/shared/` — reusable instructional components
-- `data/strategies.json` — website strategy index
-- `assets/` — CSS and JavaScript
-- `scripts/validate_site.py` — repository validator
-- `.github/workflows/pages.yml` — GitHub Pages deployment
+- `index.html`  -  searchable strategy library
+- `strategies/`  -  public strategy pages
+- `content/strategies/`  -  source Markdown
+- `content/shared/`  -  reusable instructional components
+- `data/strategies.json`  -  website strategy index
+- `assets/`  -  CSS and JavaScript
+- `scripts/validate_site.py`  -  repository validator
+- `.github/workflows/pages.yml`  -  GitHub Pages deployment
 
 ## Run locally
 

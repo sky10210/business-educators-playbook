@@ -288,7 +288,7 @@ If you let the share drag too long, the energy disappears.
 
 Keep each step clear.
 
-### Step 1 — Think
+### Step 1  -  Think
 
 Put the prompt where everyone can see it.
 
@@ -320,7 +320,7 @@ The first few seconds will feel longer to you than they do to students.
 
 Let them think.
 
-### Step 2 — Pair
+### Step 2  -  Pair
 
 Students compare answers with one partner.
 
@@ -368,7 +368,7 @@ Do not interrupt every pair.
 
 Listen more than you talk.
 
-### Step 3 — Share
+### Step 3  -  Share
 
 Bring the room back together before every pair is completely finished.
 
@@ -394,7 +394,7 @@ Use a more specific prompt:
 
 Students are more likely to speak when they can share a partner's idea instead of presenting their own answer as the final truth.
 
-### Step 4 — Close the Loop
+### Step 4  -  Close the Loop
 
 Do not stop after a few students talk.
 

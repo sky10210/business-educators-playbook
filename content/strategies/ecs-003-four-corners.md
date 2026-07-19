@@ -128,4 +128,4 @@ Think–Pair–Share → Four Corners → Gallery Walk → Exit Ticket
 
 ## Final Thoughts
 
-Four Corners creates visible decision-making. Students must commit, defend, listen, and reconsider—the same process used by effective business leaders.
+Four Corners creates visible decision-making. Students must commit, defend, listen, and reconsider - the same process used by effective business leaders.
