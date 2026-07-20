@@ -518,6 +518,238 @@
     "completion": "complete"
   },
   {
+    "id": "CL-001",
+    "title": "Jigsaw 2.0",
+    "slug": "jigsaw-2-0",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "Students become specialists on one part of a larger topic, teach that expertise to a new group, and complete an individual synthesis task that requires connections across all sections.",
+    "time_min": 35,
+    "time_max": 80,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "student teaching",
+      "expertise",
+      "synthesis",
+      "accountability"
+    ],
+    "problems": [
+      "Group work becomes uneven",
+      "Students teach inaccurate information",
+      "Individual learning is unclear"
+    ],
+    "bestFor": [
+      "Complex content",
+      "Case analysis",
+      "Shared reading",
+      "Student teaching"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students investigate separate parts of a company case, then regroup to build a complete recommendation using evidence from every expert section.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "CL-002",
+    "title": "Expert Groups",
+    "slug": "expert-groups",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "Small groups investigate one specialized business topic, create a high-quality teaching product, and serve as the class resource for questions, feedback, and application.",
+    "time_min": 35,
+    "time_max": 80,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "student teaching",
+      "expertise",
+      "synthesis",
+      "accountability"
+    ],
+    "problems": [
+      "Group work becomes uneven",
+      "Students teach inaccurate information",
+      "Individual learning is unclear"
+    ],
+    "bestFor": [
+      "Research",
+      "Student expertise",
+      "Collaborative teaching",
+      "Reference creation"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Groups become specialists in different business functions, then create concise reference tools and advise classmates during a larger case or project.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "CL-003",
+    "title": "Gallery Walk",
+    "slug": "gallery-walk",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "Students move through displayed business work, evidence, visuals, or prompts, leave structured feedback, compare approaches, and revise their own thinking after seeing multiple models.",
+    "time_min": 25,
+    "time_max": 60,
+    "movement": 5,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Active",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "movement",
+      "feedback",
+      "brainstorming",
+      "synthesis"
+    ],
+    "problems": [
+      "Feedback becomes vague",
+      "Students repeat earlier ideas",
+      "Movement becomes unfocused"
+    ],
+    "bestFor": [
+      "Peer feedback",
+      "Visual analysis",
+      "Project critique",
+      "Idea comparison"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams display campaign ideas, financial plans, case recommendations, or business-model sections while classmates rotate and respond using focused prompts.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "CL-004",
+    "title": "Carousel Brainstorm",
+    "slug": "carousel-brainstorm",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "Teams rotate through a sequence of business prompts, build on prior responses, challenge weak ideas, and synthesize the strongest thinking into a final recommendation or action plan.",
+    "time_min": 25,
+    "time_max": 60,
+    "movement": 5,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Active",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "movement",
+      "feedback",
+      "brainstorming",
+      "synthesis"
+    ],
+    "problems": [
+      "Feedback becomes vague",
+      "Students repeat earlier ideas",
+      "Movement becomes unfocused"
+    ],
+    "bestFor": [
+      "Idea generation",
+      "Prior knowledge",
+      "Problem solving",
+      "Project planning"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students rotate through prompts about customers, promotion, operations, costs, risks, and ethics before using the combined ideas to solve a larger business challenge.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
     "id": "DP-001",
     "title": "Silent Discussion",
     "slug": "silent-discussion",
@@ -925,62 +1157,6 @@
     "completion": "complete"
   },
   {
-    "id": "ECS-002",
-    "title": "Gallery Walk",
-    "slug": "gallery-walk",
-    "tier": "Cornerstone",
-    "category": "Essential Classroom Structures",
-    "summary": "Move students through evidence, examples, or decisions and make them respond to prior thinking.",
-    "time_min": 20,
-    "time_max": 45,
-    "movement": 5,
-    "noise": 4,
-    "critical_thinking": 4,
-    "collaboration": 4,
-    "assessment_potential": 4,
-    "preparation": 3,
-    "technology": "Optional",
-    "energy": "High",
-    "teacher_experience": "New Teacher",
-    "fit_45": "Good",
-    "fit_90": "Excellent",
-    "courses": [
-      "Marketing",
-      "Entrepreneurship",
-      "AP Business",
-      "Business Foundations",
-      "Sports & Entertainment Marketing",
-      "Economics"
-    ],
-    "tags": [
-      "movement",
-      "comparison",
-      "peer-feedback",
-      "student-work",
-      "formative-assessment",
-      "technology-optional"
-    ],
-    "problems": [
-      "Class needs movement",
-      "Students need comparison",
-      "Groups finish early"
-    ],
-    "bestFor": [
-      "Movement",
-      "Comparison",
-      "Peer Feedback",
-      "Student Work"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Compare six advertisements by target audience, message, appeal, evidence, and likely weakness.",
-    "status": "production",
-    "completion": "complete"
-  },
-  {
     "id": "ECS-003",
     "title": "Four Corners",
     "slug": "four-corners",
@@ -1033,60 +1209,6 @@
       "Large"
     ],
     "scenario": "A local coffee shop faces higher labor and ingredient costs. Should it raise prices, reduce portions, cut hours, or accept lower profit?",
-    "status": "production",
-    "completion": "complete"
-  },
-  {
-    "id": "ECS-004",
-    "title": "Jigsaw",
-    "slug": "jigsaw",
-    "tier": "Cornerstone",
-    "category": "Essential Classroom Structures",
-    "summary": "Turn students into specialists who must teach one piece of a larger business problem.",
-    "time_min": 30,
-    "time_max": 75,
-    "movement": 3,
-    "noise": 4,
-    "critical_thinking": 5,
-    "collaboration": 5,
-    "assessment_potential": 4,
-    "preparation": 4,
-    "technology": "Optional",
-    "energy": "Moderate",
-    "teacher_experience": "Comfortable Teacher",
-    "fit_45": "Good",
-    "fit_90": "Excellent",
-    "courses": [
-      "AP Business",
-      "Economics",
-      "Business Law",
-      "Marketing",
-      "Business Foundations"
-    ],
-    "tags": [
-      "cooperative-learning",
-      "expert-groups",
-      "reading",
-      "accountability",
-      "content-coverage"
-    ],
-    "problems": [
-      "Too much content to cover",
-      "Students need accountability",
-      "Reading feels passive"
-    ],
-    "bestFor": [
-      "Cooperative Learning",
-      "Expert Groups",
-      "Reading",
-      "Accountability"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Expert groups study pricing, promotion, distribution, customer experience, and competition before advising a struggling retailer.",
     "status": "production",
     "completion": "complete"
   },
@@ -2335,6 +2457,122 @@
       "Large"
     ],
     "scenario": "Student teams design a mini-assessment for a completed business unit, exchange it with another team, analyze the results, and revise weak questions.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "RA-007",
+    "title": "Cumulative Review Tournament",
+    "slug": "cumulative-review-tournament",
+    "tier": "Core",
+    "category": "Review & Assessment",
+    "summary": "Students compete in structured review rounds that require recall, application, explanation, and correction across current and prior units while preserving individual accountability.",
+    "time_min": 40,
+    "time_max": 90,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "Moderate to High",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "review",
+      "assessment",
+      "mastery",
+      "cumulative",
+      "reflection"
+    ],
+    "problems": [
+      "Review rewards speed over understanding",
+      "Students lack cumulative evidence",
+      "Reflection is vague"
+    ],
+    "bestFor": [
+      "Cumulative review",
+      "Exam preparation",
+      "Team competition",
+      "Spaced retrieval"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams complete business review rounds that mix rapid recall, case analysis, calculations, concept connections, and strategic recommendations.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "RA-008",
+    "title": "Standards Mastery Portfolio",
+    "slug": "standards-mastery-portfolio",
+    "tier": "Core",
+    "category": "Review & Assessment",
+    "summary": "Students curate evidence of learning by standard, explain growth across drafts and assessments, identify remaining gaps, and defend mastery in a final portfolio conference or reflection.",
+    "time_min": 40,
+    "time_max": 90,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 4,
+    "technology": "Optional",
+    "energy": "Moderate to High",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "review",
+      "assessment",
+      "mastery",
+      "cumulative",
+      "reflection"
+    ],
+    "problems": [
+      "Review rewards speed over understanding",
+      "Students lack cumulative evidence",
+      "Reflection is vague"
+    ],
+    "bestFor": [
+      "Standards-based assessment",
+      "Portfolio learning",
+      "Student reflection",
+      "Growth evidence"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students build a digital or paper portfolio containing selected business assignments, assessment corrections, reflections, and mastery claims organized by course standards.",
     "status": "production",
     "completion": "complete"
   }

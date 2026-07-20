@@ -163,3 +163,34 @@ Completed two publication-ready strategies:
 - RA-006 Student-Written Assessment Lab
 
 The Review and Assessment collection now contains six completed strategies.
+
+
+## v3.7a4 Review and Assessment Complete
+
+Completed the final two publication-ready strategies:
+
+- RA-007 Cumulative Review Tournament
+- RA-008 Standards Mastery Portfolio
+
+The Review and Assessment collection now contains eight completed strategies.
+Legacy conflicting entries were replaced cleanly.
+
+
+## v3.8a1 Collaborative Learning Part 1
+
+Completed two publication-ready strategies:
+
+- CL-001 Jigsaw 2.0
+- CL-002 Expert Groups
+
+The Collaborative Learning collection now contains two completed strategies.
+
+
+## v3.8a2 Collaborative Learning Part 2
+
+Completed two publication-ready strategies:
+
+- CL-003 Gallery Walk
+- CL-004 Carousel Brainstorm
+
+The Collaborative Learning collection now contains four completed strategies.
