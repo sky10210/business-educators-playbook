@@ -2108,111 +2108,234 @@
   },
   {
     "id": "RA-003",
-    "title": "Escape Room",
-    "slug": "escape-room",
-    "tier": "Cornerstone",
+    "title": "Concept Sort Challenge",
+    "slug": "concept-sort-challenge",
+    "tier": "Core",
     "category": "Review & Assessment",
-    "summary": "Organize review around connected puzzles that require content knowledge and collaboration.",
-    "time_min": 40,
-    "time_max": 90,
-    "movement": 4,
-    "noise": 5,
+    "summary": "Students sort terms, examples, scenarios, evidence, or decisions into meaningful categories, defend their placements, and revise the structure when competing interpretations appear.",
+    "time_min": 25,
+    "time_max": 60,
+    "movement": 2,
+    "noise": 2,
     "critical_thinking": 4,
-    "collaboration": 5,
-    "assessment_potential": 4,
-    "preparation": 5,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
     "technology": "Optional",
-    "energy": "High",
-    "teacher_experience": "Experienced Facilitator",
-    "fit_45": "Limited",
-    "fit_90": "Excellent",
+    "energy": "Focused",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
     "courses": [
       "Business Foundations",
-      "Personal Finance",
       "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
       "Accounting",
-      "Economics"
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "review",
-      "puzzles",
-      "teamwork",
-      "gamification",
-      "problem-solving"
+      "assessment",
+      "feedback",
+      "misconceptions",
+      "mastery"
     ],
     "problems": [
-      "Need cumulative review",
-      "Students need teamwork",
-      "Review feels repetitive"
+      "Students replace answers without learning",
+      "Students struggle to explain reasoning",
+      "Feedback is not used"
     ],
     "bestFor": [
-      "Review",
-      "Puzzles",
-      "Teamwork",
-      "Gamification"
+      "Concept discrimination",
+      "Vocabulary review",
+      "Classification",
+      "Misconception detection"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Solve connected personal-finance clues to unlock a final financial recommendation.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students sort business examples into categories such as fixed or variable cost, need or want, primary or secondary research, and ethical or unethical practice.",
+    "status": "production",
+    "completion": "complete"
   },
   {
     "id": "RA-004",
-    "title": "Quiz Tournament",
-    "slug": "quiz-tournament",
-    "tier": "Cornerstone",
+    "title": "Assessment Corrections Conference",
+    "slug": "assessment-corrections-conference",
+    "tier": "Core",
     "category": "Review & Assessment",
-    "summary": "Use structured team competition without allowing one student to carry the group.",
+    "summary": "Students prepare evidence-based corrections, explain their original thinking, meet briefly with the teacher or a peer reviewer, and earn credit through demonstrated understanding rather than answer replacement.",
     "time_min": 25,
     "time_max": 60,
     "movement": 2,
-    "noise": 5,
-    "critical_thinking": 3,
-    "collaboration": 5,
+    "noise": 2,
+    "critical_thinking": 4,
+    "collaboration": 4,
     "assessment_potential": 5,
     "preparation": 3,
     "technology": "Optional",
-    "energy": "High",
-    "teacher_experience": "Comfortable Teacher",
+    "energy": "Focused",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "review",
+      "assessment",
+      "feedback",
+      "misconceptions",
+      "mastery"
+    ],
+    "problems": [
+      "Students replace answers without learning",
+      "Students struggle to explain reasoning",
+      "Feedback is not used"
+    ],
+    "bestFor": [
+      "Assessment reflection",
+      "Standards-based grading",
+      "Feedback cycles",
+      "Student accountability"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students revise selected questions from a recent business assessment and defend each correction during a short structured conference.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "RA-005",
+    "title": "Mastery Stations",
+    "slug": "mastery-stations",
+    "tier": "Core",
+    "category": "Review & Assessment",
+    "summary": "Students rotate through targeted review stations that assess distinct standards, provide immediate feedback, and direct each learner toward the practice needed for mastery.",
+    "time_min": 35,
+    "time_max": 80,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
     "fit_45": "Good",
     "fit_90": "Excellent",
     "courses": [
       "Business Foundations",
       "Marketing",
       "Personal Finance",
-      "Accounting",
+      "Entrepreneurship",
+      "AP Business",
       "Economics",
-      "AP Business"
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
     ],
     "tags": [
       "review",
-      "competition",
-      "teams",
       "assessment",
-      "gamification"
+      "mastery",
+      "standards",
+      "feedback"
     ],
     "problems": [
-      "Need competitive review",
-      "Students need accountability",
-      "Assessment anxiety is high"
+      "Review is not differentiated",
+      "Students confuse completion with mastery",
+      "Feedback is not applied"
     ],
     "bestFor": [
-      "Review",
-      "Competition",
-      "Teams",
-      "Assessment"
+      "Differentiated review",
+      "Standards-based practice",
+      "Formative assessment",
+      "Targeted reteaching"
     ],
     "classSize": [
       "Small",
       "Medium",
       "Large"
     ],
-    "scenario": "Teams advance through vocabulary, scenarios, data interpretation, and final decision rounds.",
-    "status": "planned",
-    "completion": "planned"
+    "scenario": "Students rotate through stations on vocabulary application, scenario analysis, calculation, evidence use, and written recommendation before a unit assessment.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "RA-006",
+    "title": "Student-Written Assessment Lab",
+    "slug": "student-written-assessment-lab",
+    "tier": "Core",
+    "category": "Review & Assessment",
+    "summary": "Students create, critique, revise, and answer assessment questions aligned to course standards, strengthening content knowledge and understanding of what quality evidence of learning looks like.",
+    "time_min": 35,
+    "time_max": 80,
+    "movement": 3,
+    "noise": 3,
+    "critical_thinking": 4,
+    "collaboration": 4,
+    "assessment_potential": 5,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Moderate",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Good",
+    "fit_90": "Excellent",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "review",
+      "assessment",
+      "mastery",
+      "standards",
+      "feedback"
+    ],
+    "problems": [
+      "Review is not differentiated",
+      "Students confuse completion with mastery",
+      "Feedback is not applied"
+    ],
+    "bestFor": [
+      "Assessment literacy",
+      "Deep review",
+      "Question design",
+      "Metacognition"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Student teams design a mini-assessment for a completed business unit, exchange it with another team, analyze the results, and revise weak questions.",
+    "status": "production",
+    "completion": "complete"
   }
 ]

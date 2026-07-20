@@ -153,3 +153,13 @@ Completed two publication-ready strategies:
 - RA-004 Assessment Corrections Conference
 
 The Review and Assessment collection now contains four completed strategies.
+
+
+## v3.7a3 Review and Assessment Part 3
+
+Completed two publication-ready strategies:
+
+- RA-005 Mastery Stations
+- RA-006 Student-Written Assessment Lab
+
+The Review and Assessment collection now contains six completed strategies.
