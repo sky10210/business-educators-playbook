@@ -16,6 +16,58 @@ const escapeHtml = value =>
 
 const asArray = value => Array.isArray(value) ? value : [];
 
+const groupRules = {
+  independent: {
+    categories: ['Reflection & Closure'],
+    prefixes: ['RC-'],
+    terms: ['independent', 'individual', 'reflection', 'writing', 'calculation', 'personal decision', 'exit ticket', 'retrieval']
+  },
+  pairs: {
+    terms: ['pair', 'partner', 'peer feedback', 'turn and talk', 'think-pair', 'compare with a partner', 'rehearsal']
+  },
+  'small-group': {
+    terms: ['small group', 'collaboration', 'team roles', 'expert group', 'jigsaw', 'group decision', 'team recommendation', 'affinity mapping']
+  },
+  'whole-class': {
+    categories: ['Discussion Protocols'],
+    prefixes: ['DP-'],
+    terms: ['whole class', 'debate', 'discussion', 'four corners', 'gallery walk', 'consensus', 'controversy', 'movement']
+  },
+  cases: {
+    terms: ['case', 'decision', 'evidence', 'stakeholder', 'recommendation', 'alternatives', 'error analysis', 'controversy']
+  },
+  simulations: {
+    categories: ['Business Simulations'],
+    prefixes: ['BS-', 'SIM-'],
+    terms: ['simulation', 'professional roles', 'consulting', 'boardroom', 'crisis management', 'negotiation']
+  },
+  presentations: {
+    categories: ['Presentation Formats'],
+    prefixes: ['PF-'],
+    terms: ['presentation', 'pitch', 'speaking', 'product demonstration', 'board presentation', 'ted-style']
+  },
+  'review-closure': {
+    categories: ['Review & Assessment', 'Reflection & Closure'],
+    prefixes: ['RA-', 'RC-'],
+    terms: ['review', 'assessment', 'closure', 'reflection', 'retrieval', 'check understanding', 'error analysis']
+  }
+};
+
+function belongsToGroup(strategy, key) {
+  const rule = groupRules[key];
+  if (!rule) return false;
+
+  const category = String(strategy.category || '');
+  const id = String(strategy.id || '');
+  const searchable = JSON.stringify(strategy).toLowerCase();
+
+  const categoryMatch = asArray(rule.categories).includes(category);
+  const prefixMatch = asArray(rule.prefixes).some(prefix => id.startsWith(prefix));
+  const termMatch = asArray(rule.terms).some(term => searchable.includes(term.toLowerCase()));
+
+  return categoryMatch || prefixMatch || termMatch;
+}
+
 function buildCard(strategy) {
   const min = Number(strategy.time_min);
   const max = Number(strategy.time_max);
@@ -39,7 +91,7 @@ function buildCard(strategy) {
       <div class="card-accent"></div>
       <div class="card-content">
         <div class="card-meta">
-          <span>${escapeHtml(strategy.id)} · ${escapeHtml(strategy.category || 'Business Simulations')}</span>
+          <span>${escapeHtml(strategy.id)} · ${escapeHtml(strategy.category || 'Strategy Library')}</span>
         </div>
         <h3><a href="${escapeHtml(url)}">${escapeHtml(strategy.title)}</a></h3>
         <p>${escapeHtml(strategy.summary || 'A complete classroom-ready strategy guide.')}</p>
@@ -73,7 +125,7 @@ async function initGroupPage() {
   const grid = document.querySelector('#group-strategy-grid');
   if (!grid) return;
 
-  const requiredGroup = document.body.dataset.group;
+  const groupKey = document.body.dataset.groupKey;
   const search = document.querySelector('#group-search');
   const course = document.querySelector('#group-course');
   const time = document.querySelector('#group-time');
@@ -88,9 +140,7 @@ async function initGroupPage() {
 
     const allStrategies = await response.json();
     const groupStrategies = allStrategies.filter(strategy =>
-      strategy.category === requiredGroup ||
-      (requiredGroup === 'Business Simulations' &&
-        (strategy.id || '').startsWith('BS-'))
+      belongsToGroup(strategy, groupKey)
     );
 
     [...new Set(groupStrategies.flatMap(strategy => asArray(strategy.courses)))]
@@ -119,7 +169,7 @@ async function initGroupPage() {
 
       grid.innerHTML = filtered.length
         ? filtered.map(buildCard).join('')
-        : '<div class="empty-state">No simulations match those filters. Try a broader search or reset this collection.</div>';
+        : '<div class="empty-state">No strategies match those filters. Try a broader search or reset this category.</div>';
 
       grid.querySelectorAll('[data-card-url]').forEach(card => {
         card.addEventListener('click', event => {
@@ -135,7 +185,7 @@ async function initGroupPage() {
         });
       });
 
-      count.textContent = `${filtered.length} ${filtered.length === 1 ? 'simulation' : 'simulations'}`;
+      count.textContent = `${filtered.length} ${filtered.length === 1 ? 'strategy' : 'strategies'}`;
 
       chips.innerHTML = '';
       const active = [
@@ -197,7 +247,7 @@ async function initGroupPage() {
   } catch (error) {
     console.error(error);
     grid.innerHTML =
-      '<div class="empty-state">The simulations collection could not load. Confirm that data/strategies.json is present and refresh after GitHub Pages deploys.</div>';
+      '<div class="empty-state">This category could not load. Confirm that data/strategies.json is present and refresh after GitHub Pages deploys.</div>';
     count.textContent = 'Collection unavailable';
   }
 }

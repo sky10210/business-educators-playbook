@@ -1,27 +1,42 @@
-PHASE 2 — SIMULATIONS GROUP PAGE
+PHASE 3 — ALL STRATEGY CATEGORY PAGES
 
-Upload these files to the matching paths in your GitHub repository:
+Upload these files to the matching paths in your GitHub repository.
 
 REPLACE:
 - index.html
+- simulations.html
+- assets/js/group-pages.js
+- assets/css/group-pages.css
 
 ADD:
-- simulations.html
-- assets/css/group-pages.css
-- assets/js/group-pages.js
+- independent.html
+- pairs-partners.html
+- small-group.html
+- whole-class.html
+- cases-decisions.html
+- presentations.html
+- review-closure.html
 
-Keep the Phase 1 version of:
+Keep the Phase 1 file already uploaded:
 - assets/js/site.js
 
-What this phase adds:
-- A dedicated Simulations & Professional Roles category page.
-- Dynamic loading of every strategy categorized as Business Simulations.
-- Search, course, and class-length filters on the simulations page.
-- Direct links from the homepage sidebar and simulations category card.
-- Full clickable and keyboard-accessible strategy cards.
-- No COMPLETE / DEVELOPING status labels.
-- A calmer red, warm gray, black, and white color direction inspired by the
-  Opening Bell reference.
+This package completes all eight strategy-group pages:
+1. Independent & Individual
+2. Pairs & Partners
+3. Small-Group Collaboration
+4. Whole-Class Engagement
+5. Cases & Decision-Making
+6. Simulations & Professional Roles
+7. Presentations & Pitches
+8. Review, Assessment & Closure
 
-This phase intentionally updates only the simulations category. The remaining
-seven category pages will follow using this same structure.
+What changes:
+- Every homepage category card opens its own category page.
+- Every category page contains its own search, course, and time filters.
+- Sidebars connect all eight category pages directly.
+- Strategy cards open the individual strategy guide rather than returning home.
+- The simulations page is updated to use the same shared system.
+- Category pages preserve the Opening Bell-inspired warm gray, red, black, and white direction.
+
+The category matcher allows a strategy to appear on more than one relevant page.
+That is intentional because many classroom strategies fit multiple teaching needs.
