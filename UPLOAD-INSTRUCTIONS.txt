@@ -1,0 +1,21 @@
+PHASE 1 — HOMEPAGE NAVIGATION REPAIR
+
+Upload these files to the same paths in your GitHub repository:
+
+1. index.html
+   Replace the existing root-level index.html.
+
+2. assets/js/site.js
+   Replace the existing assets/js/site.js.
+
+What this phase fixes:
+- Repairs the broken Activity Library section ID.
+- Makes Activity Library, Browse Activities, Search Activities, sidebar filters,
+  and URL-filter links land at the actual library.
+- Removes COMPLETE / DEVELOPING from generated strategy cards.
+- Makes the full strategy card clickable and keyboard accessible.
+- Keeps the title and Open Strategy Guide links working normally.
+- Improves Reset behavior and library-load error messaging.
+- Preserves the existing Activity Finder logic.
+
+No CSS, strategy page, data file, or category-page changes are included yet.
