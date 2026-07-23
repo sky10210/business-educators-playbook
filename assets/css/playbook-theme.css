@@ -1,0 +1,475 @@
+/*
+  Business Educator's Playbook
+  Phase 4 — Opening Bell-inspired global color system
+
+  Loaded after site.css so these rules intentionally override the original
+  bright-blue dashboard palette without deleting the site's existing layout.
+*/
+
+:root {
+  --playbook-page: #f3f2f1;
+  --playbook-surface: #ffffff;
+  --playbook-surface-muted: #ebe9e7;
+  --playbook-ink: #191718;
+  --playbook-muted: #676266;
+  --playbook-line: #d8d5d4;
+  --playbook-red: #cf3034;
+  --playbook-red-dark: #a92327;
+  --playbook-green: #2f7d3d;
+  --playbook-charcoal: #242122;
+  --playbook-charcoal-2: #302c2e;
+  --playbook-soft-red: #f8e8e8;
+  --playbook-shadow: 0 16px 42px rgba(35, 31, 32, .09);
+
+  /* Remap legacy variables used throughout the current site. */
+  --navy-950: #191718;
+  --navy-900: #242122;
+  --navy-800: #383335;
+  --blue-700: #b7292d;
+  --blue-600: #cf3034;
+  --cyan-500: #cf3034;
+  --teal-500: #5f6961;
+  --emerald-600: #2f7d3d;
+  --ink: #191718;
+  --muted: #676266;
+  --surface: #ffffff;
+  --canvas: #f3f2f1;
+  --soft-blue: #f5eeee;
+  --soft-cyan: #f3efed;
+  --line: #d8d5d4;
+  --shadow: var(--playbook-shadow);
+}
+
+html {
+  background: var(--playbook-page);
+}
+
+body {
+  background: var(--playbook-page);
+  color: var(--playbook-ink);
+}
+
+a {
+  color: var(--playbook-red-dark);
+}
+
+a:hover {
+  color: var(--playbook-red);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--playbook-ink);
+}
+
+/* Sidebar */
+.app-sidebar {
+  background: linear-gradient(180deg, #242122 0%, #191718 100%);
+  box-shadow: 12px 0 34px rgba(25, 23, 24, .16);
+}
+
+.sidebar-brand,
+.sidebar-footer {
+  border-color: rgba(255, 255, 255, .09);
+}
+
+.vivid-name span {
+  color: #ef5b5f;
+}
+
+.brand-product,
+.sidebar-footer small {
+  color: #bbb5b7;
+}
+
+.nav-label {
+  color: #8e888b;
+}
+
+.primary-nav a {
+  color: #d1ccce;
+}
+
+.primary-nav a:hover {
+  background: rgba(255, 255, 255, .07);
+  color: #fff;
+}
+
+.primary-nav a.active {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(207, 48, 52, .25), rgba(207, 48, 52, .07));
+  box-shadow: inset 3px 0 0 var(--playbook-red);
+}
+
+.nav-icon {
+  background: rgba(255, 255, 255, .08);
+}
+
+.nav-dot,
+.primary-nav a:hover .nav-dot {
+  background: #cf3034;
+}
+
+.nav-dot-blue,
+.nav-dot-cyan,
+.nav-dot-teal,
+.nav-dot-purple,
+.nav-dot-orange,
+.nav-dot-green {
+  background: #cf3034 !important;
+}
+
+.live-dot {
+  background: #49a25b;
+  box-shadow: 0 0 0 5px rgba(73, 162, 91, .13);
+}
+
+/* Header */
+.topbar {
+  background: rgba(255, 255, 255, .94);
+  border-color: var(--playbook-line);
+}
+
+.section-nav a,
+.top-search {
+  color: #615c5f;
+}
+
+.section-nav a:hover,
+.top-search:hover {
+  color: var(--playbook-red);
+}
+
+.top-cta,
+.button-primary {
+  background: var(--playbook-red);
+  border-color: var(--playbook-red);
+  box-shadow: 0 8px 20px rgba(207, 48, 52, .18);
+}
+
+.top-cta:hover,
+.button-primary:hover {
+  background: var(--playbook-red-dark);
+  border-color: var(--playbook-red-dark);
+}
+
+.button-secondary {
+  background: #fff;
+  color: var(--playbook-ink);
+  border-color: #cbc7c5;
+}
+
+.button-secondary:hover {
+  background: #f4f1f0;
+  color: var(--playbook-red-dark);
+}
+
+/* Homepage hero */
+.dashboard-hero,
+.compact-hero {
+  background:
+    radial-gradient(circle at 84% 12%, rgba(207, 48, 52, .10), transparent 28%),
+    linear-gradient(145deg, #ffffff 0%, #f5f3f2 68%, #ece9e7 100%);
+  border-color: var(--playbook-line);
+}
+
+.eyebrow,
+.section-kicker {
+  color: var(--playbook-red);
+}
+
+.eyebrow span {
+  background: var(--playbook-red);
+  box-shadow: 0 0 0 5px rgba(207, 48, 52, .11);
+}
+
+.hero-copy > p,
+.section-title-row p {
+  color: var(--playbook-muted);
+}
+
+.hero-metrics {
+  border-color: var(--playbook-line);
+}
+
+.hero-metrics strong {
+  color: var(--playbook-ink);
+}
+
+.decision-card,
+.quick-action-card {
+  background: var(--playbook-charcoal);
+  box-shadow: 0 30px 70px rgba(25, 23, 24, .20);
+}
+
+.decision-icon {
+  background: var(--playbook-red);
+}
+
+.decision-card button:hover {
+  border-color: rgba(239, 91, 95, .44);
+}
+
+.decision-card button b {
+  color: #ef5b5f;
+}
+
+/* Sections and instructional panels */
+.dashboard-section,
+.about-panel,
+.finder-example {
+  background-color: var(--playbook-surface);
+}
+
+.finder-example,
+.category-showcase,
+.library-panel {
+  border-color: var(--playbook-line);
+}
+
+.example-flow article,
+.finder-callout,
+.feature-list > div,
+.problem-grid button,
+.pathway-card {
+  border-color: var(--playbook-line);
+  box-shadow: none;
+}
+
+.flow-number,
+.problem-icon {
+  color: var(--playbook-red-dark);
+  background: var(--playbook-soft-red);
+}
+
+.finder-callout {
+  border-left-color: var(--playbook-red);
+}
+
+/* Category cards: one restrained system instead of rainbow */
+.category-grid .category-card {
+  color: var(--playbook-ink);
+  background: #fff;
+  border-color: var(--playbook-line);
+  border-top-color: var(--playbook-red);
+  box-shadow: none;
+}
+
+.category-grid .category-card:hover,
+.category-grid .category-card:focus-visible {
+  border-color: #c4bfbd;
+  border-top-color: var(--playbook-red);
+  box-shadow: var(--playbook-shadow);
+}
+
+.category-card::after {
+  background: #f4f1f0 !important;
+  opacity: .8;
+}
+
+.category-card .category-label {
+  color: var(--playbook-red-dark) !important;
+  background: var(--playbook-soft-red) !important;
+}
+
+.category-card .category-icon {
+  color: #fff !important;
+  background: var(--playbook-red) !important;
+  box-shadow: 0 12px 24px rgba(207, 48, 52, .16) !important;
+}
+
+.category-card strong {
+  color: var(--playbook-ink);
+}
+
+.category-card p {
+  color: #5f5a5d;
+}
+
+.category-card small {
+  color: #858084;
+}
+
+/* Library and filters */
+.library-panel,
+.group-library {
+  background: var(--playbook-surface-muted);
+}
+
+.result-pill,
+.filter-bar,
+.group-filter-bar {
+  background: #fff;
+  border-color: var(--playbook-line);
+  box-shadow: none;
+}
+
+.filter-bar input,
+.filter-bar select,
+.group-filter-bar input,
+.group-filter-bar select {
+  border-color: #cbc7c5;
+  color: var(--playbook-ink);
+}
+
+.filter-bar input:focus,
+.filter-bar select:focus,
+.group-filter-bar input:focus,
+.group-filter-bar select:focus {
+  outline: 3px solid rgba(207, 48, 52, .12);
+  border-color: var(--playbook-red);
+}
+
+.clear-filters {
+  background: #f4f1f0;
+  border-color: #cbc7c5;
+  color: var(--playbook-ink);
+}
+
+.clear-filters:hover {
+  background: #ece7e5;
+}
+
+.filter-chip {
+  background: var(--playbook-soft-red);
+  color: var(--playbook-red-dark);
+}
+
+/* Strategy cards */
+.strategy-card {
+  background: #fff;
+  border-color: var(--playbook-line);
+  box-shadow: 0 8px 22px rgba(35, 31, 32, .04);
+}
+
+.strategy-card:hover {
+  border-color: #c4bfbd;
+  box-shadow: var(--playbook-shadow);
+}
+
+.card-accent {
+  background: var(--playbook-red);
+}
+
+.card-meta {
+  color: #7d777a;
+}
+
+.card-status {
+  color: var(--playbook-green);
+}
+
+.strategy-card h3 a,
+.card-stats strong {
+  color: var(--playbook-ink);
+}
+
+.strategy-card p {
+  color: #625d60;
+}
+
+.card-pills span,
+.topic-pills span {
+  background: #f1eeee;
+  color: #5f595c;
+}
+
+.card-stats div {
+  background: #f6f4f3;
+}
+
+.card-open {
+  color: var(--playbook-red-dark);
+}
+
+/* Strategy detail pages */
+.strategy-banner {
+  background:
+    radial-gradient(circle at 86% 18%, rgba(207, 48, 52, .09), transparent 26%),
+    linear-gradient(145deg, #fff, #f3f0ef);
+  border-color: var(--playbook-line);
+}
+
+.strategy-number {
+  color: var(--playbook-red);
+}
+
+.status-badge.ready {
+  background: #e5f2e7;
+  color: var(--playbook-green);
+}
+
+.page-toc a.active {
+  color: var(--playbook-red-dark);
+  border-color: var(--playbook-red);
+}
+
+.strategy-content section,
+.info-card,
+.example-card,
+.teacher-language,
+.adaptation-card,
+.warning-card {
+  border-color: var(--playbook-line);
+}
+
+.step-number,
+.example-number {
+  background: var(--playbook-red);
+  color: #fff;
+}
+
+/* Activity finder */
+.finder-highlight {
+  border-color: var(--playbook-red) !important;
+  box-shadow: 0 0 0 4px rgba(207, 48, 52, .11), var(--playbook-shadow) !important;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--playbook-charcoal);
+  color: #d8d3d5;
+  border-color: #3b3638;
+}
+
+.site-footer a {
+  color: #f0cccd;
+}
+
+/* Focus and keyboard accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.strategy-card:focus-visible {
+  outline: 3px solid rgba(207, 48, 52, .30);
+  outline-offset: 3px;
+}
+
+/* Print stays neutral and ink-efficient */
+@media print {
+  :root {
+    --playbook-red: #555;
+    --playbook-red-dark: #333;
+    --playbook-page: #fff;
+    --playbook-surface-muted: #f3f3f3;
+  }
+
+  body,
+  .app-frame,
+  .dashboard-section,
+  .strategy-banner,
+  .group-hero,
+  .group-library {
+    background: #fff !important;
+  }
+
+  .card-accent,
+  .category-card .category-icon,
+  .step-number,
+  .example-number {
+    background: #555 !important;
+  }
+}

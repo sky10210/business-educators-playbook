@@ -1,3 +1,13 @@
+// Phase 4 global theme loader
+(function loadPlaybookTheme() {
+  if (document.querySelector('link[data-playbook-theme]')) return;
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'assets/css/playbook-theme.css';
+  link.dataset.playbookTheme = 'opening-bell';
+  document.head.appendChild(link);
+})();
+
 const body = document.body;
 const toggle = document.querySelector('#sidebar-toggle');
 const overlay = document.querySelector('#sidebar-overlay');
