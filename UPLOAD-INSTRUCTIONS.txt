@@ -1,21 +1,27 @@
-PHASE 1 — HOMEPAGE NAVIGATION REPAIR
+PHASE 2 — SIMULATIONS GROUP PAGE
 
-Upload these files to the same paths in your GitHub repository:
+Upload these files to the matching paths in your GitHub repository:
 
-1. index.html
-   Replace the existing root-level index.html.
+REPLACE:
+- index.html
 
-2. assets/js/site.js
-   Replace the existing assets/js/site.js.
+ADD:
+- simulations.html
+- assets/css/group-pages.css
+- assets/js/group-pages.js
 
-What this phase fixes:
-- Repairs the broken Activity Library section ID.
-- Makes Activity Library, Browse Activities, Search Activities, sidebar filters,
-  and URL-filter links land at the actual library.
-- Removes COMPLETE / DEVELOPING from generated strategy cards.
-- Makes the full strategy card clickable and keyboard accessible.
-- Keeps the title and Open Strategy Guide links working normally.
-- Improves Reset behavior and library-load error messaging.
-- Preserves the existing Activity Finder logic.
+Keep the Phase 1 version of:
+- assets/js/site.js
 
-No CSS, strategy page, data file, or category-page changes are included yet.
+What this phase adds:
+- A dedicated Simulations & Professional Roles category page.
+- Dynamic loading of every strategy categorized as Business Simulations.
+- Search, course, and class-length filters on the simulations page.
+- Direct links from the homepage sidebar and simulations category card.
+- Full clickable and keyboard-accessible strategy cards.
+- No COMPLETE / DEVELOPING status labels.
+- A calmer red, warm gray, black, and white color direction inspired by the
+  Opening Bell reference.
+
+This phase intentionally updates only the simulations category. The remaining
+seven category pages will follow using this same structure.
