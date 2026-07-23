@@ -194,3 +194,13 @@ Completed two publication-ready strategies:
 - CL-004 Carousel Brainstorm
 
 The Collaborative Learning collection now contains four completed strategies.
+
+
+## v3.8a3 Collaborative Learning Part 3
+
+Completed two publication-ready strategies:
+
+- CL-005 Consensus Challenge
+- CL-006 Fishbowl Discussion
+
+The Collaborative Learning collection now contains six completed strategies.

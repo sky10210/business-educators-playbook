@@ -750,6 +750,122 @@
     "completion": "complete"
   },
   {
+    "id": "CL-005",
+    "title": "Consensus Challenge",
+    "slug": "consensus-challenge",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "Teams must reach and defend one shared business decision after comparing options, testing evidence, resolving disagreement, and documenting the trade-offs behind their final choice.",
+    "time_min": 30,
+    "time_max": 70,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Focused",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "discussion",
+      "decision making",
+      "evidence",
+      "accountability"
+    ],
+    "problems": [
+      "Participation becomes uneven",
+      "Students rely on opinion",
+      "Teams avoid productive disagreement"
+    ],
+    "bestFor": [
+      "Decision making",
+      "Trade-off analysis",
+      "Evidence-based argument",
+      "Ethics"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Teams evaluate several business options, debate competing priorities, and submit one recommendation that every member can explain and defend.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
+    "id": "CL-006",
+    "title": "Fishbowl Discussion",
+    "slug": "fishbowl-discussion",
+    "tier": "Core",
+    "category": "Collaborative Learning",
+    "summary": "A small inner circle discusses a business issue while an outer circle observes specific reasoning and communication moves, then roles rotate so students apply the feedback in a stronger second discussion.",
+    "time_min": 30,
+    "time_max": 70,
+    "movement": 2,
+    "noise": 3,
+    "critical_thinking": 5,
+    "collaboration": 5,
+    "assessment_potential": 4,
+    "preparation": 3,
+    "technology": "Optional",
+    "energy": "Focused",
+    "teacher_experience": "Developing Teacher",
+    "fit_45": "Excellent",
+    "fit_90": "Good",
+    "courses": [
+      "Business Foundations",
+      "Marketing",
+      "Personal Finance",
+      "Entrepreneurship",
+      "AP Business",
+      "Economics",
+      "Business Law",
+      "Accounting",
+      "Sports & Entertainment Marketing"
+    ],
+    "tags": [
+      "collaboration",
+      "discussion",
+      "decision making",
+      "evidence",
+      "accountability"
+    ],
+    "problems": [
+      "Participation becomes uneven",
+      "Students rely on opinion",
+      "Teams avoid productive disagreement"
+    ],
+    "bestFor": [
+      "Discussion skills",
+      "Case analysis",
+      "Ethical dilemmas",
+      "Evidence use"
+    ],
+    "classSize": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "scenario": "Students discuss a business case, ethical dilemma, market decision, or financial choice while observers track evidence use, participation, questioning, and reasoning.",
+    "status": "production",
+    "completion": "complete"
+  },
+  {
     "id": "DP-001",
     "title": "Silent Discussion",
     "slug": "silent-discussion",
@@ -1209,61 +1325,6 @@
       "Large"
     ],
     "scenario": "A local coffee shop faces higher labor and ingredient costs. Should it raise prices, reduce portions, cut hours, or accept lower profit?",
-    "status": "production",
-    "completion": "complete"
-  },
-  {
-    "id": "ECS-005",
-    "title": "Fishbowl",
-    "slug": "fishbowl",
-    "tier": "Cornerstone",
-    "category": "Essential Classroom Structures",
-    "summary": "Use an inner discussion and outer observation circle to strengthen speaking and listening.",
-    "time_min": 20,
-    "time_max": 50,
-    "movement": 2,
-    "noise": 3,
-    "critical_thinking": 5,
-    "collaboration": 4,
-    "assessment_potential": 4,
-    "preparation": 2,
-    "technology": "Not required",
-    "energy": "Calm",
-    "teacher_experience": "Comfortable Teacher",
-    "fit_45": "Good",
-    "fit_90": "Excellent",
-    "courses": [
-      "Business Law",
-      "AP Business",
-      "Ethics",
-      "Management",
-      "Economics"
-    ],
-    "tags": [
-      "discussion",
-      "observation",
-      "seminar",
-      "listening",
-      "facilitation",
-      "technology-free"
-    ],
-    "problems": [
-      "Discussion lacks depth",
-      "Students interrupt",
-      "Need stronger listening"
-    ],
-    "bestFor": [
-      "Discussion",
-      "Observation",
-      "Seminar",
-      "Listening"
-    ],
-    "classSize": [
-      "Small",
-      "Medium",
-      "Large"
-    ],
-    "scenario": "Should a company use customer data to personalize prices?",
     "status": "production",
     "completion": "complete"
   },
