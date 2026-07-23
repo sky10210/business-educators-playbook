@@ -1,0 +1,82 @@
+/* Phase 5 — strategy-page navigation repairs */
+
+.strategy-navigation-strip {
+  position: sticky;
+  top: var(--topbar);
+  z-index: 72;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px clamp(24px, 5vw, 72px);
+  overflow-x: auto;
+  border-bottom: 1px solid var(--playbook-line, #d8d5d4);
+  background: rgba(255, 255, 255, .96);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 8px 22px rgba(35, 31, 32, .05);
+}
+
+.strategy-navigation-strip a,
+.strategy-navigation-strip button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 12px;
+  border: 1px solid #d8d5d4;
+  border-radius: 8px;
+  background: #fff;
+  color: #373234;
+  font: inherit;
+  font-size: .7rem;
+  font-weight: 750;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.strategy-navigation-strip a:first-child,
+.strategy-navigation-strip a:nth-child(2) {
+  border-color: rgba(207, 48, 52, .24);
+  background: #f8e8e8;
+  color: #a92327;
+}
+
+.strategy-navigation-strip a:hover,
+.strategy-navigation-strip button:hover {
+  border-color: #cf3034;
+  color: #a92327;
+}
+
+.related-strategy-link {
+  color: #a92327;
+  font-weight: 750;
+  text-decoration: underline;
+  text-decoration-color: rgba(169, 35, 39, .28);
+  text-underline-offset: 3px;
+}
+
+.related-strategy-link:hover {
+  text-decoration-color: currentColor;
+}
+
+.next-strategy .button {
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .strategy-navigation-strip {
+    top: 0;
+    padding: 9px 16px;
+  }
+
+  .strategy-navigation-strip a,
+  .strategy-navigation-strip button {
+    min-height: 34px;
+    font-size: .66rem;
+  }
+}
+
+@media print {
+  .strategy-navigation-strip {
+    display: none !important;
+  }
+}

@@ -1,11 +1,28 @@
-// Phase 4 global theme loader
+// Phase 5 path-aware global theme loader
 (function loadPlaybookTheme() {
   if (document.querySelector('link[data-playbook-theme]')) return;
+
+  const inStrategyFolder =
+    window.location.pathname.includes('/strategies/') ||
+    document.querySelector('link[href^="../assets/css/site.css"]');
+
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'assets/css/playbook-theme.css';
+  link.href = inStrategyFolder
+    ? '../assets/css/playbook-theme.css'
+    : 'assets/css/playbook-theme.css';
   link.dataset.playbookTheme = 'opening-bell';
   document.head.appendChild(link);
+
+  if (!document.querySelector('link[data-strategy-navigation]')) {
+    const navigationStyles = document.createElement('link');
+    navigationStyles.rel = 'stylesheet';
+    navigationStyles.href = inStrategyFolder
+      ? '../assets/css/strategy-navigation.css'
+      : 'assets/css/strategy-navigation.css';
+    navigationStyles.dataset.strategyNavigation = 'true';
+    document.head.appendChild(navigationStyles);
+  }
 })();
 
 const body = document.body;
@@ -414,3 +431,210 @@ if (toc.length) {
       ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 })();
+
+
+// Phase 5 strategy-page navigation audit and repair
+(function repairStrategyNavigation() {
+  const isStrategyPage =
+    document.body.classList.contains('strategy-body') ||
+    window.location.pathname.includes('/strategies/');
+
+  if (!isStrategyPage) return;
+
+  const categoryRoutes = {
+    BS: '../simulations.html',
+    SIM: '../simulations.html',
+    PF: '../presentations.html',
+    RA: '../review-closure.html',
+    RC: '../review-closure.html',
+    DP: '../whole-class.html',
+    ECS: '../small-group.html',
+    SUP: '../index.html#library'
+  };
+
+  const titleText = document.querySelector('.strategy-number')?.textContent?.trim() || '';
+  const prefix = titleText.split('-')[0];
+  const categoryUrl = categoryRoutes[prefix] || '../index.html#library';
+
+  const categoryNames = {
+    BS: 'Simulations & Professional Roles',
+    SIM: 'Simulations & Professional Roles',
+    PF: 'Presentations & Pitches',
+    RA: 'Review, Assessment & Closure',
+    RC: 'Review, Assessment & Closure',
+    DP: 'Whole-Class Engagement',
+    ECS: 'Small-Group Collaboration',
+    SUP: 'Complete Strategy Library'
+  };
+
+  const categoryName = categoryNames[prefix] || 'Complete Strategy Library';
+
+  // Strategy Library links should always open the real library section.
+  document.querySelectorAll('a').forEach(anchor => {
+    const text = anchor.textContent.trim().toLowerCase();
+    const href = anchor.getAttribute('href') || '';
+
+    if (
+      text === 'strategy library' ||
+      text === 'search strategies' ||
+      text === 'all strategies'
+    ) {
+      anchor.href = '../index.html#library';
+    }
+
+    // Replace old filtered-homepage category buttons with their new group page.
+    if (
+      href.includes('../index.html?category=') ||
+      href.includes('../index.html?search=') ||
+      href === '../index.html'
+    ) {
+      const buttonText = text;
+      const isCategoryAction =
+        buttonText.includes('simulation') ||
+        buttonText.includes('presentation') ||
+        buttonText.includes('review') ||
+        buttonText.includes('closure') ||
+        buttonText.includes('discussion') ||
+        buttonText.includes('collection') ||
+        buttonText.includes('keep exploring') ||
+        buttonText.includes('continue exploring');
+
+      if (isCategoryAction) anchor.href = categoryUrl;
+    }
+  });
+
+  // Repair breadcrumb category destination and wording.
+  const breadcrumb = document.querySelector('.breadcrumb');
+  if (breadcrumb) {
+    const existingLinks = breadcrumb.querySelectorAll('a');
+
+    if (existingLinks.length === 1) {
+      existingLinks[0].textContent = 'All Strategies';
+      existingLinks[0].href = '../index.html#library';
+
+      const separator = document.createElement('span');
+      separator.textContent = '/';
+
+      const categoryLink = document.createElement('a');
+      categoryLink.href = categoryUrl;
+      categoryLink.textContent = categoryName;
+
+      breadcrumb.append(separator, categoryLink);
+    } else if (existingLinks.length > 1) {
+      existingLinks[0].href = '../index.html#library';
+      existingLinks[1].href = categoryUrl;
+    }
+  }
+
+  // Standardize the bottom category callout.
+  const next = document.querySelector('.next-strategy');
+  if (next) {
+    const small = next.querySelector('small');
+    const strong = next.querySelector('strong');
+    const action = next.querySelector('a');
+
+    if (small) small.textContent = categoryName;
+    if (strong) strong.textContent = `Explore every strategy in ${categoryName}.`;
+    if (action) {
+      action.href = categoryUrl;
+      action.textContent = `Explore ${categoryName}`;
+    }
+  }
+
+  // Turn plain-text related strategy names into direct links when they match
+  // an entry in data/strategies.json.
+  const relatedHeading = [...document.querySelectorAll('h2, h3')]
+    .find(heading => heading.textContent.toLowerCase().includes('related'));
+
+  if (relatedHeading) {
+    const relatedSection = relatedHeading.closest('section');
+    const relatedItems = relatedSection
+      ? [...relatedSection.querySelectorAll('li')]
+      : [];
+
+    if (relatedItems.length) {
+      fetch('../data/strategies.json')
+        .then(response => {
+          if (!response.ok) throw new Error(response.status);
+          return response.json();
+        })
+        .then(strategies => {
+          const normalize = value =>
+            String(value)
+              .toLowerCase()
+              .replace(/&/g, 'and')
+              .replace(/[^a-z0-9]+/g, ' ')
+              .trim();
+
+          relatedItems.forEach(item => {
+            if (item.querySelector('a')) return;
+
+            const label = item.textContent.trim();
+            const normalizedLabel = normalize(label);
+
+            const match = strategies.find(strategy => {
+              const title = normalize(strategy.title);
+              return (
+                title === normalizedLabel ||
+                title.includes(normalizedLabel) ||
+                normalizedLabel.includes(title)
+              );
+            });
+
+            if (!match) return;
+
+            const link = document.createElement('a');
+            link.href = `${encodeURIComponent(match.slug)}.html`;
+            link.textContent = label;
+            link.className = 'related-strategy-link';
+
+            item.textContent = '';
+            item.appendChild(link);
+          });
+        })
+        .catch(error => console.warn('Related strategy links could not load.', error));
+    }
+  }
+
+  // Add a compact persistent navigation strip after the strategy banner.
+  const banner = document.querySelector('.strategy-banner');
+  const existingStrip = document.querySelector('.strategy-navigation-strip');
+
+  if (banner && !existingStrip) {
+    const strip = document.createElement('nav');
+    strip.className = 'strategy-navigation-strip';
+    strip.setAttribute('aria-label', 'Strategy navigation');
+    strip.innerHTML = `
+      <a href="../index.html#library">← All Strategies</a>
+      <a href="${categoryUrl}">${categoryName}</a>
+      <a href="../coach.html">Activity Finder</a>
+      <button type="button" data-copy-procedure>Copy procedure link</button>
+      <button type="button" onclick="window.print()">Print guide</button>
+    `;
+
+    banner.insertAdjacentElement('afterend', strip);
+
+    strip.querySelector('[data-copy-procedure]')?.addEventListener('click', async event => {
+      const procedure =
+        document.querySelector('#running-the-simulation') ||
+        document.querySelector('#procedure') ||
+        document.querySelector('#steps') ||
+        document.querySelector('main h2');
+
+      const url = procedure
+        ? `${window.location.href.split('#')[0]}#${procedure.id}`
+        : window.location.href;
+
+      try {
+        await navigator.clipboard.writeText(url);
+        const button = event.currentTarget;
+        const original = button.textContent;
+        button.textContent = 'Link copied';
+        setTimeout(() => { button.textContent = original; }, 1600);
+      } catch {
+        window.prompt('Copy this procedure link:', url);
+      }
+    });
+  }
+})();
+
