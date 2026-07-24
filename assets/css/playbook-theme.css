@@ -473,3 +473,212 @@ select:focus-visible,
     background: #555 !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Phase 6 — warmer beige refinement
+   Replaces the remaining dark navy/charcoal blocks with a darker warm beige.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --playbook-beige-50: #fbf7f1;
+  --playbook-beige-100: #f2e9dc;
+  --playbook-beige-200: #e5d6c2;
+  --playbook-beige-300: #d4bea2;
+  --playbook-beige-700: #6e5b47;
+  --playbook-beige-800: #514334;
+  --playbook-page: #eee7de;
+  --playbook-surface-muted: #e7ddd1;
+  --playbook-charcoal: #d7c5ae;
+  --playbook-charcoal-2: #cbb69a;
+  --canvas: #eee7de;
+}
+
+/* Sidebar becomes warm beige instead of near-black. */
+.app-sidebar {
+  background:
+    linear-gradient(180deg, #dbc9b1 0%, #cfbaa0 100%);
+  color: #2c2723;
+  box-shadow: 12px 0 34px rgba(79, 62, 45, .14);
+}
+
+.sidebar-brand,
+.sidebar-footer {
+  border-color: rgba(81, 67, 52, .16);
+}
+
+.brand-lockup,
+.brand-lockup:hover,
+.vivid-name,
+.sidebar-footer strong {
+  color: #241f1c;
+}
+
+.vivid-name span {
+  color: #b7292d;
+}
+
+.brand-product,
+.sidebar-footer small {
+  color: #66594c;
+}
+
+.nav-label {
+  color: #7a6754;
+}
+
+.primary-nav a {
+  color: #433a32;
+}
+
+.primary-nav a:hover {
+  color: #241f1c;
+  background: rgba(255, 255, 255, .34);
+}
+
+.primary-nav a.active {
+  color: #241f1c;
+  background:
+    linear-gradient(90deg, rgba(207, 48, 52, .16), rgba(255, 255, 255, .34));
+  box-shadow: inset 3px 0 0 var(--playbook-red);
+}
+
+.nav-icon {
+  color: #4a3e34;
+  background: rgba(255, 255, 255, .35);
+}
+
+.nav-dot,
+.primary-nav a:hover .nav-dot,
+.nav-dot-blue,
+.nav-dot-cyan,
+.nav-dot-teal,
+.nav-dot-purple,
+.nav-dot-orange,
+.nav-dot-green {
+  background: #cf3034 !important;
+}
+
+.sidebar-footer {
+  background: rgba(255, 255, 255, .12);
+}
+
+/* The large Activity Finder card becomes a complementary warm beige panel. */
+.decision-card,
+.quick-action-card {
+  background:
+    linear-gradient(155deg, #d9c6ad 0%, #cbb397 100%);
+  color: #251f1b;
+  border: 1px solid rgba(81, 67, 52, .16);
+  box-shadow: 0 28px 60px rgba(83, 65, 47, .18);
+}
+
+.decision-head small,
+.quick-action-card small {
+  color: #715e4d;
+}
+
+.decision-head strong,
+.quick-action-card strong {
+  color: #251f1b;
+}
+
+.decision-icon {
+  color: #fff;
+  background: var(--playbook-red);
+}
+
+.decision-card button {
+  color: #2d2722;
+  background: rgba(255, 255, 255, .28);
+  border-color: rgba(81, 67, 52, .15);
+}
+
+.decision-card button:hover {
+  color: #211c18;
+  background: rgba(255, 255, 255, .46);
+  border-color: rgba(207, 48, 52, .35);
+}
+
+.decision-card button > span {
+  color: #856f5c;
+}
+
+.decision-card button strong {
+  color: #2a2420;
+}
+
+.decision-card button small {
+  color: #67594d;
+}
+
+.decision-card button b {
+  color: var(--playbook-red);
+}
+
+.quick-action-card a,
+.quick-action-card button {
+  color: #2c2520;
+  border-color: rgba(81, 67, 52, .16);
+}
+
+.quick-action-card a:hover,
+.quick-action-card button:hover {
+  color: var(--playbook-red-dark);
+  background: rgba(255, 255, 255, .34);
+}
+
+/* Slightly warmer overall surfaces. */
+.dashboard-hero,
+.compact-hero {
+  background:
+    radial-gradient(circle at 84% 12%, rgba(207, 48, 52, .09), transparent 28%),
+    linear-gradient(145deg, #fffdf9 0%, #f5eee5 68%, #e8dccf 100%);
+}
+
+.dashboard-section,
+.about-panel,
+.finder-example,
+.group-hero {
+  background-color: #fffdf9;
+}
+
+.library-panel,
+.group-library {
+  background: #e7ddd1;
+}
+
+.strategy-banner {
+  background:
+    radial-gradient(circle at 86% 18%, rgba(207, 48, 52, .08), transparent 26%),
+    linear-gradient(145deg, #fffdf9, #eee3d7);
+}
+
+/* Footer is warm brown rather than near-black. */
+.site-footer {
+  background: #6e5b47;
+  color: #f8f2ea;
+  border-color: #5b4a3a;
+}
+
+.site-footer a {
+  color: #ffe1e2;
+}
+
+/* Mobile drawer keeps the same warm treatment. */
+@media (max-width: 980px) {
+  .app-sidebar {
+    background:
+      linear-gradient(180deg, #dbc9b1 0%, #cfbaa0 100%);
+  }
+}
+
+/* Print remains neutral. */
+@media print {
+  .app-sidebar,
+  .decision-card,
+  .quick-action-card,
+  .site-footer {
+    background: #f1f1f1 !important;
+    color: #222 !important;
+  }
+}
