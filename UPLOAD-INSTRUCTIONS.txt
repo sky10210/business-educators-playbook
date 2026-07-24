@@ -1,42 +1,42 @@
-PHASE 3 — ALL STRATEGY CATEGORY PAGES
+PHASE 7 — PREMIUM ACADEMIC PALETTE + PUBLISHER HIERARCHY
 
-Upload these files to the matching paths in your GitHub repository.
+UPLOAD AND REPLACE:
+- assets/css/playbook-theme.css
 
-REPLACE:
-- index.html
-- simulations.html
-- assets/js/group-pages.js
+No HTML or JavaScript replacement is required for this phase.
+
+PALETTE:
+- Page background: #F5F2EC
+- Surface/cards: #FFFFFF
+- Sidebar: #34495A
+- Primary red: #B22C35
+- Muted green: #6F8570
+- Accent gold: #B89B5E
+- Borders: #D8D2C8
+- Main text: #2A2A2A
+- Secondary text: #66635F
+
+VISUAL HIERARCHY CHANGES:
+- Larger editorial headlines with stronger spacing.
+- Less “software dashboard” styling.
+- Fewer rounded, shadowed containers.
+- Instructional sections separated with rules and whitespace.
+- Category cards changed to restrained reference cards.
+- Strategy cards changed to catalog-style entries.
+- Individual strategy pages now read more like handbook chapters.
+- Activity Finder remains visually distinct but calmer.
+- Sidebar uses deep slate rather than black or beige.
+- Red is reserved for actions and emphasis.
+- Green is reserved for positive/status information.
+- Gold is used subtly for warmth.
+
+KEEP IN PLACE:
+- All Phase 1–5 HTML and JavaScript files.
 - assets/css/group-pages.css
+- assets/css/strategy-navigation.css
+- data/strategies.json
+- All eight category pages.
 
-ADD:
-- independent.html
-- pairs-partners.html
-- small-group.html
-- whole-class.html
-- cases-decisions.html
-- presentations.html
-- review-closure.html
-
-Keep the Phase 1 file already uploaded:
-- assets/js/site.js
-
-This package completes all eight strategy-group pages:
-1. Independent & Individual
-2. Pairs & Partners
-3. Small-Group Collaboration
-4. Whole-Class Engagement
-5. Cases & Decision-Making
-6. Simulations & Professional Roles
-7. Presentations & Pitches
-8. Review, Assessment & Closure
-
-What changes:
-- Every homepage category card opens its own category page.
-- Every category page contains its own search, course, and time filters.
-- Sidebars connect all eight category pages directly.
-- Strategy cards open the individual strategy guide rather than returning home.
-- The simulations page is updated to use the same shared system.
-- Category pages preserve the Opening Bell-inspired warm gray, red, black, and white direction.
-
-The category matcher allows a strategy to appear on more than one relevant page.
-That is intentional because many classroom strategies fit multiple teaching needs.
+After GitHub Pages deploys, hard-refresh the browser:
+Mac Safari: Option + Command + R
+Windows: Ctrl + F5

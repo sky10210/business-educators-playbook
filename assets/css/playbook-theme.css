@@ -474,211 +474,771 @@ select:focus-visible,
   }
 }
 
-/* --------------------------------------------------------------------------
-   Phase 6 — warmer beige refinement
-   Replaces the remaining dark navy/charcoal blocks with a darker warm beige.
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   Phase 7 — Publisher-style hierarchy + Premium Academic palette
+   Designed for long teacher planning sessions: calm surfaces, strong hierarchy,
+   fewer dashboard-like boxes, and restrained color.
+   ========================================================================== */
 
 :root {
-  --playbook-beige-50: #fbf7f1;
-  --playbook-beige-100: #f2e9dc;
-  --playbook-beige-200: #e5d6c2;
-  --playbook-beige-300: #d4bea2;
-  --playbook-beige-700: #6e5b47;
-  --playbook-beige-800: #514334;
-  --playbook-page: #eee7de;
-  --playbook-surface-muted: #e7ddd1;
-  --playbook-charcoal: #d7c5ae;
-  --playbook-charcoal-2: #cbb69a;
-  --canvas: #eee7de;
+  --playbook-page: #F5F2EC;
+  --playbook-surface: #FFFFFF;
+  --playbook-surface-muted: #EFEAE2;
+  --playbook-ink: #2A2A2A;
+  --playbook-muted: #66635F;
+  --playbook-line: #D8D2C8;
+  --playbook-red: #B22C35;
+  --playbook-red-dark: #8E2028;
+  --playbook-green: #6F8570;
+  --playbook-gold: #B89B5E;
+  --playbook-slate: #34495A;
+  --playbook-slate-dark: #2B3C4A;
+  --playbook-soft-red: #F4E6E7;
+  --playbook-soft-green: #E9EFE9;
+  --playbook-soft-gold: #F2EBDD;
+  --playbook-shadow: 0 14px 34px rgba(52, 73, 90, .09);
+
+  /* Remap legacy variables used throughout the site. */
+  --navy-950: #2B3C4A;
+  --navy-900: #34495A;
+  --navy-800: #496071;
+  --blue-700: #9A252D;
+  --blue-600: #B22C35;
+  --cyan-500: #B89B5E;
+  --teal-500: #6F8570;
+  --emerald-600: #5E765F;
+  --ink: #2A2A2A;
+  --muted: #66635F;
+  --surface: #FFFFFF;
+  --canvas: #F5F2EC;
+  --soft-blue: #F4E6E7;
+  --soft-cyan: #F2EBDD;
+  --line: #D8D2C8;
+  --shadow: var(--playbook-shadow);
 }
 
-/* Sidebar becomes warm beige instead of near-black. */
+html,
+body {
+  background: var(--playbook-page);
+}
+
+body {
+  color: var(--playbook-ink);
+  font-size: 15px;
+  line-height: 1.72;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--playbook-ink);
+  letter-spacing: -.035em;
+}
+
+h1 {
+  font-size: clamp(2.8rem, 5.25vw, 5.3rem);
+  line-height: 1.03;
+  max-width: 980px;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  line-height: 1.12;
+}
+
+h3 {
+  font-size: 1.16rem;
+  letter-spacing: -.02em;
+}
+
+a {
+  color: var(--playbook-red-dark);
+}
+
+a:hover {
+  color: var(--playbook-red);
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar — deep slate for authority without the harshness of black
+   -------------------------------------------------------------------------- */
+
 .app-sidebar {
-  background:
-    linear-gradient(180deg, #dbc9b1 0%, #cfbaa0 100%);
-  color: #2c2723;
-  box-shadow: 12px 0 34px rgba(79, 62, 45, .14);
+  background: linear-gradient(180deg, var(--playbook-slate), var(--playbook-slate-dark));
+  color: #F7F5F1;
+  box-shadow: 10px 0 30px rgba(43, 60, 74, .15);
 }
 
 .sidebar-brand,
 .sidebar-footer {
-  border-color: rgba(81, 67, 52, .16);
+  border-color: rgba(255,255,255,.10);
 }
 
 .brand-lockup,
 .brand-lockup:hover,
-.vivid-name,
-.sidebar-footer strong {
-  color: #241f1c;
+.vivid-name {
+  color: #FFFFFF;
 }
 
 .vivid-name span {
-  color: #b7292d;
+  color: #F0C8CB;
 }
 
 .brand-product,
 .sidebar-footer small {
-  color: #66594c;
+  color: #CBD4DA;
 }
 
 .nav-label {
-  color: #7a6754;
+  color: #9EADB7;
 }
 
 .primary-nav a {
-  color: #433a32;
+  color: #E2E8EC;
 }
 
 .primary-nav a:hover {
-  color: #241f1c;
-  background: rgba(255, 255, 255, .34);
+  background: rgba(255,255,255,.08);
+  color: #FFFFFF;
 }
 
 .primary-nav a.active {
-  color: #241f1c;
-  background:
-    linear-gradient(90deg, rgba(207, 48, 52, .16), rgba(255, 255, 255, .34));
-  box-shadow: inset 3px 0 0 var(--playbook-red);
+  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(178,44,53,.30), rgba(178,44,53,.08));
+  box-shadow: inset 3px 0 0 #D65D65;
 }
 
 .nav-icon {
-  color: #4a3e34;
-  background: rgba(255, 255, 255, .35);
+  background: rgba(255,255,255,.10);
 }
 
 .nav-dot,
-.primary-nav a:hover .nav-dot,
 .nav-dot-blue,
 .nav-dot-cyan,
 .nav-dot-teal,
 .nav-dot-purple,
 .nav-dot-orange,
 .nav-dot-green {
-  background: #cf3034 !important;
+  background: #D65D65 !important;
 }
 
-.sidebar-footer {
-  background: rgba(255, 255, 255, .12);
+.live-dot {
+  background: #8DB28F;
+  box-shadow: 0 0 0 5px rgba(141,178,143,.13);
 }
 
-/* The large Activity Finder card becomes a complementary warm beige panel. */
+/* --------------------------------------------------------------------------
+   Top navigation — quieter and more editorial
+   -------------------------------------------------------------------------- */
+
+.topbar {
+  background: rgba(255,255,255,.95);
+  border-color: var(--playbook-line);
+  box-shadow: 0 1px 0 rgba(52,73,90,.03);
+}
+
+.section-nav {
+  gap: 30px;
+}
+
+.section-nav a {
+  color: #5C6267;
+  font-size: .77rem;
+  font-weight: 700;
+}
+
+.section-nav a:hover,
+.top-search:hover {
+  color: var(--playbook-red);
+}
+
+.top-search {
+  color: #5C6267;
+}
+
+.top-cta,
+.button-primary,
+.button.primary {
+  background: var(--playbook-red);
+  border-color: var(--playbook-red);
+  color: #FFFFFF !important;
+  box-shadow: 0 8px 20px rgba(178,44,53,.18);
+}
+
+.top-cta:hover,
+.button-primary:hover,
+.button.primary:hover {
+  background: var(--playbook-red-dark);
+  border-color: var(--playbook-red-dark);
+}
+
+.button-secondary,
+.button.secondary {
+  background: #FFFFFF;
+  color: var(--playbook-ink);
+  border-color: #CFC8BE;
+  box-shadow: none;
+}
+
+.button-secondary:hover,
+.button.secondary:hover {
+  background: #F4F0EA;
+  color: var(--playbook-red-dark);
+}
+
+/* --------------------------------------------------------------------------
+   Homepage hero — editorial spread, less dashboard
+   -------------------------------------------------------------------------- */
+
+.dashboard-hero,
+.compact-hero {
+  min-height: 620px;
+  padding-top: clamp(72px, 8vw, 118px);
+  padding-bottom: clamp(72px, 8vw, 118px);
+  gap: clamp(48px, 7vw, 90px);
+  background:
+    radial-gradient(circle at 88% 12%, rgba(184,155,94,.13), transparent 28%),
+    linear-gradient(145deg, #FFFFFF 0%, #F8F4EE 70%, #EEE6DA 100%);
+  border-color: var(--playbook-line);
+}
+
+.eyebrow,
+.section-kicker {
+  color: var(--playbook-red);
+  letter-spacing: .13em;
+}
+
+.eyebrow span {
+  background: var(--playbook-red);
+  box-shadow: 0 0 0 5px rgba(178,44,53,.11);
+}
+
+.hero-copy > p {
+  max-width: 720px;
+  color: #5C5A57;
+  font-size: 1.07rem;
+  line-height: 1.75;
+}
+
+.hero-actions {
+  margin-top: 31px;
+}
+
+.hero-metrics {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-color: var(--playbook-line);
+}
+
+.hero-metrics strong {
+  color: var(--playbook-slate);
+  font-size: 1.5rem;
+}
+
+.hero-metrics span {
+  color: var(--playbook-muted);
+}
+
+/* Main quick-start panel: slate, but lighter and calmer than the old navy. */
 .decision-card,
 .quick-action-card {
   background:
-    linear-gradient(155deg, #d9c6ad 0%, #cbb397 100%);
-  color: #251f1b;
-  border: 1px solid rgba(81, 67, 52, .16);
-  box-shadow: 0 28px 60px rgba(83, 65, 47, .18);
+    linear-gradient(155deg, #405667 0%, #304352 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 28px 62px rgba(52,73,90,.23);
 }
 
 .decision-head small,
 .quick-action-card small {
-  color: #715e4d;
+  color: #BFCBD3;
 }
 
-.decision-head strong,
-.quick-action-card strong {
-  color: #251f1b;
+.decision-head strong {
+  color: #FFFFFF;
 }
 
 .decision-icon {
-  color: #fff;
   background: var(--playbook-red);
 }
 
 .decision-card button {
-  color: #2d2722;
-  background: rgba(255, 255, 255, .28);
-  border-color: rgba(81, 67, 52, .15);
+  background: rgba(255,255,255,.07);
+  border-color: rgba(255,255,255,.10);
 }
 
 .decision-card button:hover {
-  color: #211c18;
-  background: rgba(255, 255, 255, .46);
-  border-color: rgba(207, 48, 52, .35);
+  background: rgba(255,255,255,.12);
+  border-color: rgba(214,93,101,.42);
 }
 
 .decision-card button > span {
-  color: #856f5c;
+  color: #AFC0CB;
 }
 
 .decision-card button strong {
-  color: #2a2420;
+  color: #FFFFFF;
 }
 
 .decision-card button small {
-  color: #67594d;
+  color: #C8D2D8;
 }
 
 .decision-card button b {
-  color: var(--playbook-red);
+  color: #F18A90;
 }
 
-.quick-action-card a,
-.quick-action-card button {
-  color: #2c2520;
-  border-color: rgba(81, 67, 52, .16);
+/* --------------------------------------------------------------------------
+   Publisher hierarchy — fewer boxes, larger content rhythms
+   -------------------------------------------------------------------------- */
+
+.dashboard-section {
+  padding-top: clamp(78px, 8vw, 112px);
+  padding-bottom: clamp(78px, 8vw, 112px);
 }
 
-.quick-action-card a:hover,
-.quick-action-card button:hover {
-  color: var(--playbook-red-dark);
-  background: rgba(255, 255, 255, .34);
+.section-title-row {
+  align-items: flex-start;
+  margin-bottom: 36px;
 }
 
-/* Slightly warmer overall surfaces. */
-.dashboard-hero,
-.compact-hero {
-  background:
-    radial-gradient(circle at 84% 12%, rgba(207, 48, 52, .09), transparent 28%),
-    linear-gradient(145deg, #fffdf9 0%, #f5eee5 68%, #e8dccf 100%);
+.section-title-row h2 {
+  max-width: 780px;
 }
 
-.dashboard-section,
-.about-panel,
+.section-title-row p {
+  max-width: 700px;
+  font-size: .96rem;
+  line-height: 1.72;
+}
+
 .finder-example,
-.group-hero {
-  background-color: #fffdf9;
+.category-showcase,
+.about-panel {
+  background: #FFFFFF;
 }
 
 .library-panel,
 .group-library {
-  background: #e7ddd1;
+  background: var(--playbook-surface-muted);
 }
+
+/* Remove the software-dashboard feel from instructional flow cards. */
+.example-flow {
+  gap: 0;
+  border-top: 1px solid var(--playbook-line);
+}
+
+.example-flow article {
+  border: 0;
+  border-bottom: 1px solid var(--playbook-line);
+  border-radius: 0;
+  padding: 30px 4px;
+  box-shadow: none;
+  background: transparent;
+}
+
+.flow-number {
+  color: var(--playbook-red-dark);
+  background: var(--playbook-soft-red);
+}
+
+.finder-callout {
+  margin-top: 38px;
+  border: 0;
+  border-left: 4px solid var(--playbook-red);
+  border-radius: 0;
+  box-shadow: none;
+  background: #F8F5F0;
+  padding: 28px 30px;
+}
+
+/* Category cards: restrained editorial cards, not rainbow tiles. */
+.category-grid {
+  gap: 18px;
+}
+
+.category-grid .category-card {
+  min-height: 250px;
+  padding: 27px;
+  border: 1px solid var(--playbook-line);
+  border-top: 4px solid var(--playbook-slate);
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: none;
+}
+
+.category-grid .category-card:hover,
+.category-grid .category-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: #C7BFB4;
+  border-top-color: var(--playbook-red);
+  box-shadow: var(--playbook-shadow);
+}
+
+.category-card::after {
+  display: none !important;
+}
+
+.category-card .category-label {
+  color: var(--playbook-red-dark) !important;
+  background: var(--playbook-soft-red) !important;
+}
+
+.category-card .category-icon {
+  width: 43px;
+  height: 43px;
+  color: #FFFFFF !important;
+  background: var(--playbook-slate) !important;
+  box-shadow: none !important;
+}
+
+.category-card strong {
+  margin-top: 24px;
+  color: var(--playbook-ink);
+  font-size: 1.08rem;
+}
+
+.category-card p {
+  color: #5F5C58;
+  line-height: 1.65;
+}
+
+.category-card small {
+  color: #858078;
+}
+
+/* --------------------------------------------------------------------------
+   Library — closer to a catalog/reference manual
+   -------------------------------------------------------------------------- */
+
+.filter-bar,
+.group-filter-bar {
+  border: 1px solid var(--playbook-line);
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: none;
+  padding: 18px;
+}
+
+.filter-bar input,
+.filter-bar select,
+.group-filter-bar input,
+.group-filter-bar select {
+  border-color: #CEC7BD;
+  border-radius: 6px;
+}
+
+.filter-bar input:focus,
+.filter-bar select:focus,
+.group-filter-bar input:focus,
+.group-filter-bar select:focus {
+  outline: 3px solid rgba(178,44,53,.12);
+  border-color: var(--playbook-red);
+}
+
+.clear-filters {
+  border-radius: 6px;
+  background: #F2EEE8;
+  border-color: #CEC7BD;
+}
+
+.result-pill {
+  border-radius: 999px;
+  border-color: var(--playbook-line);
+  box-shadow: none;
+}
+
+.filter-chip {
+  color: var(--playbook-red-dark);
+  background: var(--playbook-soft-red);
+}
+
+.strategy-grid {
+  gap: 18px;
+}
+
+.strategy-card {
+  border: 1px solid var(--playbook-line);
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: none;
+}
+
+.strategy-card:hover {
+  transform: translateY(-3px);
+  border-color: #C7BFB4;
+  box-shadow: var(--playbook-shadow);
+}
+
+.card-accent {
+  height: 3px;
+  background: var(--playbook-red);
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-meta {
+  color: #7D7871;
+}
+
+.card-status {
+  color: #5E765F;
+}
+
+.strategy-card h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.strategy-card h3 a {
+  color: var(--playbook-slate-dark);
+}
+
+.strategy-card p {
+  color: #625E59;
+  line-height: 1.65;
+}
+
+.card-pills span,
+.topic-pills span {
+  background: #F2EEE8;
+  color: #59544F;
+}
+
+.card-stats div {
+  background: #F7F4EF;
+}
+
+.card-open {
+  color: var(--playbook-red-dark);
+}
+
+/* --------------------------------------------------------------------------
+   Individual strategy guides — handbook page, not app dashboard
+   -------------------------------------------------------------------------- */
 
 .strategy-banner {
+  padding-top: 68px;
+  padding-bottom: 56px;
   background:
-    radial-gradient(circle at 86% 18%, rgba(207, 48, 52, .08), transparent 26%),
-    linear-gradient(145deg, #fffdf9, #eee3d7);
+    radial-gradient(circle at 88% 15%, rgba(184,155,94,.11), transparent 27%),
+    linear-gradient(145deg, #FFFFFF, #F1ECE4);
+  border-color: var(--playbook-line);
 }
 
-/* Footer is warm brown rather than near-black. */
+.strategy-heading h1 {
+  font-size: clamp(2.75rem, 5vw, 4.9rem);
+}
+
+.strategy-number {
+  color: var(--playbook-red);
+}
+
+.status-badge.ready {
+  color: #4F684F;
+  background: var(--playbook-soft-green);
+}
+
+.strategy-layout {
+  gap: clamp(42px, 6vw, 78px);
+}
+
+.strategy-article {
+  max-width: 900px;
+}
+
+.strategy-section {
+  padding: 40px 0;
+  border: 0;
+  border-bottom: 1px solid var(--playbook-line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.strategy-section:first-child {
+  padding-top: 12px;
+}
+
+.strategy-section h2 {
+  margin-bottom: 20px;
+}
+
+.movie-trailer,
+.quick-scan-grid,
+.timing-grid,
+.table-wrap,
+.problem-card,
+.variation-card,
+.course-example,
+.role-line,
+.phase-card,
+.setup-strip,
+.utility-card,
+.pathway-card {
+  border-color: var(--playbook-line);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.movie-trailer {
+  background: #F7F3ED;
+}
+
+.quick-scan-grid > div,
+.timing-grid > div,
+.course-example,
+.problem-card,
+.variation-card,
+.role-line {
+  background: #FFFFFF;
+}
+
+.phase-card {
+  background: #FFFFFF;
+}
+
+.phase-card > span,
+.step-number,
+.example-number {
+  color: #FFFFFF;
+  background: var(--playbook-red);
+}
+
+.page-toc {
+  border-left: 1px solid var(--playbook-line);
+}
+
+.page-toc a.active {
+  color: var(--playbook-red-dark);
+  border-color: var(--playbook-red);
+}
+
+.next-strategy {
+  border-radius: 8px;
+  background: var(--playbook-slate);
+}
+
+/* --------------------------------------------------------------------------
+   Activity Finder + utility pages
+   -------------------------------------------------------------------------- */
+
+.finder-hero,
+.utility-hero,
+.group-hero {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(184,155,94,.11), transparent 27%),
+    linear-gradient(145deg, #FFFFFF, #F1ECE4);
+  border-color: var(--playbook-line);
+}
+
+.finder-panel,
+.pathway-group,
+.utility-grid {
+  background: #FFFFFF;
+}
+
+.finder-result {
+  border-color: var(--playbook-line);
+  background: #F7F3ED;
+}
+
+.pathway-group-heading {
+  border-radius: 8px;
+  background: var(--playbook-slate) !important;
+  color: #FFFFFF;
+}
+
+.pathway-card {
+  background: #FFFFFF;
+}
+
+.pathway-tag {
+  color: var(--playbook-red-dark);
+  background: var(--playbook-soft-red);
+}
+
+/* --------------------------------------------------------------------------
+   Footer, focus, mobile, print
+   -------------------------------------------------------------------------- */
+
 .site-footer {
-  background: #6e5b47;
-  color: #f8f2ea;
-  border-color: #5b4a3a;
+  background: var(--playbook-slate-dark);
+  color: #E5EAED;
+  border-color: #263640;
 }
 
 .site-footer a {
-  color: #ffe1e2;
+  color: #F3D1D3;
 }
 
-/* Mobile drawer keeps the same warm treatment. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.strategy-card:focus-visible,
+.category-card:focus-visible {
+  outline: 3px solid rgba(178,44,53,.28);
+  outline-offset: 3px;
+}
+
 @media (max-width: 980px) {
-  .app-sidebar {
-    background:
-      linear-gradient(180deg, #dbc9b1 0%, #cfbaa0 100%);
+  .dashboard-hero,
+  .compact-hero {
+    min-height: auto;
+  }
+
+  .category-grid .category-card {
+    min-height: 0;
+  }
+
+  .strategy-section {
+    padding: 32px 0;
   }
 }
 
-/* Print remains neutral. */
+@media (max-width: 700px) {
+  h1 {
+    font-size: clamp(2.3rem, 12vw, 3.6rem);
+  }
+
+  .dashboard-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .filter-bar,
+  .group-filter-bar {
+    padding: 14px;
+  }
+
+  .category-grid .category-card,
+  .card-content {
+    padding: 22px;
+  }
+}
+
 @media print {
-  .app-sidebar,
-  .decision-card,
-  .quick-action-card,
-  .site-footer {
-    background: #f1f1f1 !important;
-    color: #222 !important;
+  :root {
+    --playbook-page: #FFFFFF;
+    --playbook-surface-muted: #F2F2F2;
+    --playbook-red: #555555;
+    --playbook-red-dark: #333333;
+    --playbook-slate: #444444;
+    --playbook-slate-dark: #333333;
+  }
+
+  body,
+  .app-frame,
+  .dashboard-section,
+  .strategy-banner,
+  .group-hero,
+  .group-library,
+  .strategy-section {
+    background: #FFFFFF !important;
   }
 }
